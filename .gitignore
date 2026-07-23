@@ -1,0 +1,9 @@
+# 开发工具（非站点产物）
+.agents/
+skills-lock.json
+node_modules/
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
