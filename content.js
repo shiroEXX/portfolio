@@ -1,10 +1,8 @@
 window.SITE_DATA = {
   "profile": {
     "name": "谢智聪",
-    "role": "品牌部 · 内容主编 / 营销传播",
-    "tagline": "用 AI 的视角，解码现象背后的先进技术——「超级AI研究所」内容主理人",
-    "intro": "深耕科技品牌内容建设与整合营销传播。主导「超级AI研究所」AI 科普视频账号的选题、脚本与发布，并操盘阿里云米兰冬奥 AIGC 全球大赛、《赢在AI+》等品牌 campaign。",
-    "contact": "站内作品即我的项目经历缩影；如需进一步沟通，欢迎邮件联系。"
+    "role": "品牌内容主编 · AI科普IP主理人 · 整合营销传播",
+    "tagline": "此网站为个人过往项目案例作品集"
   },
   "featuredVideos": [
     {
@@ -907,114 +905,464 @@ window.SITE_DATA = {
       "total": "3579"
     }
   ],
-  "campaigns": [
-    {
-      "name": "阿里云米兰冬奥会 AIGC 全球大赛",
-      "tagline": "全球创作者 · AI+冬奥 共创",
-      "summary": "面向全球创作者的 AIGC 命题赛事，以通义万相等工具邀请世界各地创作者用 AI 重新诠释冬奥，实现品牌全球化创意共创。",
-      "metrics": {
-        "参赛国家/地区": "127",
-        "投稿作品数量": "15000",
-        "国内曝光量": "980000000",
-        "国际曝光量": "200000000",
-        "全网互动量": "4730000"
+  "winterMetrics": {
+    "countries": "127",
+    "submissions": "15000",
+    "domesticExposure": "980000000",
+    "intlExposure": "200000000",
+    "interactions": "4730000"
+  },
+  "winAIExposure": 32268,
+  "mapData": {
+    "totalCountries": 89,
+    "totalSubmissions": 197,
+    "maxCount": 13,
+    "countries": {
+      "PH": {
+        "name": "菲律宾",
+        "count": 13,
+        "intensity": 1.0
       },
-      "highlights": [
-        "127 个国家/地区参与",
-        "15,000 件 AIGC 作品投稿",
-        "国内 9.8 亿 + 国际 2 亿曝光",
-        "全网 473 万互动"
-      ]
-    },
-    {
-      "name": "《赢在AI+》第一季",
-      "tagline": "整合传播 · 多频道破圈",
-      "summary": "综艺化 IP 传播项目，整合 TVC、微博话题页、视频号、央视频与稿件多渠道，形成「话题引爆 + TVC 背书 + 视频号渗透 + 稿件沉淀」的传播范式。",
-      "metrics": {
-        "合计曝光(万)": "约 32,268"
+      "IN": {
+        "name": "印度",
+        "count": 12,
+        "intensity": 0.92
       },
-      "channels": [
-        {
-          "channel": "[\"微博话题页\"]",
-          "exposureW": "11000",
-          "project": "北京话题页总曝光"
-        },
-        {
-          "channel": "[\"微博话题页\"]",
-          "exposureW": "13000",
-          "project": "杭州话题页总曝光"
-        },
-        {
-          "channel": "[\"TVC\"]",
-          "exposureW": "2000",
-          "project": "tvc总曝光"
-        },
-        {
-          "channel": "[\"TVC\"]",
-          "exposureW": "1731",
-          "project": "朋友圈投放"
-        },
-        {
-          "channel": "[\"视频号\"]",
-          "exposureW": "86.73",
-          "project": "阿里云微博阅读量"
-        },
-        {
-          "channel": "[\"视频号\"]",
-          "exposureW": "59.53",
-          "project": "阿里云微博视频播放量"
-        },
-        {
-          "channel": "[\"视频号\"]",
-          "exposureW": "116.35",
-          "project": "阿里云视频号"
-        },
-        {
-          "channel": "[\"视频号\"]",
-          "exposureW": "14.04",
-          "project": "阿里云抖音"
-        },
-        {
-          "channel": "[\"视频号\"]",
-          "exposureW": "998.7",
-          "project": "供应商视频号广告片"
-        },
-        {
-          "channel": "[\"视频号\"]",
-          "exposureW": "1184",
-          "project": "供应商视频号无人机"
-        },
-        {
-          "channel": "[\"视频号\"]",
-          "exposureW": "1267.4",
-          "project": "供应商视频号大回顾"
-        },
-        {
-          "channel": "[\"视频号\"]",
-          "exposureW": "183.5",
-          "project": "供应商抖音"
-        },
-        {
-          "channel": "[\"央视频\"]",
-          "exposureW": "394.4",
-          "project": "央视切片视频"
-        },
-        {
-          "channel": "[\"稿件\"]",
-          "exposureW": "16.88",
-          "project": "央视稿件总曝光"
-        },
-        {
-          "channel": "[\"稿件\"]",
-          "exposureW": "174",
-          "project": "供应商外发网媒"
-        },
-        {
-          "channel": "[\"稿件\"]",
-          "exposureW": "42.31",
-          "project": "供应商外发公众号"
-        }
-      ]
+      "ES": {
+        "name": "西班牙",
+        "count": 10,
+        "intensity": 0.77
+      },
+      "CN": {
+        "name": "中国",
+        "count": 10,
+        "intensity": 0.77
+      },
+      "ID": {
+        "name": "印尼",
+        "count": 8,
+        "intensity": 0.62
+      },
+      "MY": {
+        "name": "马来西亚",
+        "count": 8,
+        "intensity": 0.62
+      },
+      "CA": {
+        "name": "加拿大",
+        "count": 6,
+        "intensity": 0.46
+      },
+      "TH": {
+        "name": "泰国",
+        "count": 6,
+        "intensity": 0.46
+      },
+      "IT": {
+        "name": "意大利",
+        "count": 6,
+        "intensity": 0.46
+      },
+      "GB": {
+        "name": "英国",
+        "count": 4,
+        "intensity": 0.31
+      },
+      "US": {
+        "name": "美国",
+        "count": 4,
+        "intensity": 0.31
+      },
+      "NG": {
+        "name": "尼日利亚",
+        "count": 3,
+        "intensity": 0.23
+      },
+      "UA": {
+        "name": "乌克兰",
+        "count": 3,
+        "intensity": 0.23
+      },
+      "PK": {
+        "name": "巴基斯坦",
+        "count": 3,
+        "intensity": 0.23
+      },
+      "CY": {
+        "name": "塞浦路斯",
+        "count": 3,
+        "intensity": 0.23
+      },
+      "HN": {
+        "name": "洪都拉斯",
+        "count": 3,
+        "intensity": 0.23
+      },
+      "NL": {
+        "name": "荷兰",
+        "count": 3,
+        "intensity": 0.23
+      },
+      "GT": {
+        "name": "危地马拉",
+        "count": 3,
+        "intensity": 0.23
+      },
+      "PT": {
+        "name": "葡萄牙",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "DM": {
+        "name": "多米尼克",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "FR": {
+        "name": "法国",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "SG": {
+        "name": "新加坡",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "MX": {
+        "name": "墨西哥",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "SE": {
+        "name": "瑞典",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "MM": {
+        "name": "缅甸",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "LA": {
+        "name": "老挝",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "KH": {
+        "name": "柬埔寨",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "CH": {
+        "name": "瑞士",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "CZ": {
+        "name": "捷克",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "PA": {
+        "name": "巴拿马",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "FI": {
+        "name": "芬兰",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "NI": {
+        "name": "尼加拉瓜",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "VN": {
+        "name": "越南",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "AT": {
+        "name": "奥地利",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "TR": {
+        "name": "土耳其",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "LI": {
+        "name": "列支敦士登",
+        "count": 2,
+        "intensity": 0.15
+      },
+      "CR": {
+        "name": "哥斯达黎加",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "KE": {
+        "name": "肯尼亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "SR": {
+        "name": "苏里南",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "JP": {
+        "name": "日本",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "BZ": {
+        "name": "伯利兹",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "RS": {
+        "name": "塞尔维亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "BR": {
+        "name": "巴西",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "SK": {
+        "name": "斯洛伐克",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "ML": {
+        "name": "马里",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "GQ": {
+        "name": "赤道几内亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "GA": {
+        "name": "加蓬",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "MG": {
+        "name": "马达加斯加",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "BJ": {
+        "name": "贝宁",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "SV": {
+        "name": "萨尔瓦多",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "HU": {
+        "name": "匈牙利",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "GM": {
+        "name": "冈比亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "BI": {
+        "name": "布隆迪",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "UG": {
+        "name": "乌干达",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "BA": {
+        "name": "波黑",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "DJ": {
+        "name": "吉布提",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "SO": {
+        "name": "索马里",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "VE": {
+        "name": "委内瑞拉",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "JM": {
+        "name": "牙买加",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "KR": {
+        "name": "韩国",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "LR": {
+        "name": "利比里亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "GN": {
+        "name": "几内亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "IS": {
+        "name": "冰岛",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "DE": {
+        "name": "德国",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "ME": {
+        "name": "黑山",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "MZ": {
+        "name": "莫桑比克",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "TN": {
+        "name": "突尼斯",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "LU": {
+        "name": "卢森堡",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "LV": {
+        "name": "拉脱维亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "SA": {
+        "name": "沙特阿拉伯",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "RO": {
+        "name": "罗马尼亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "VC": {
+        "name": "圣文森特",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "HT": {
+        "name": "海地",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "AR": {
+        "name": "阿根廷",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "JO": {
+        "name": "约旦",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "CM": {
+        "name": "喀麦隆",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "LY": {
+        "name": "利比亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "ET": {
+        "name": "埃塞俄比亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "BF": {
+        "name": "布基纳法索",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "KY": {
+        "name": "开曼群岛",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "TG": {
+        "name": "多哥",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "BY": {
+        "name": "白俄罗斯",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "MU": {
+        "name": "毛里求斯",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "BW": {
+        "name": "博茨瓦纳",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "SI": {
+        "name": "斯洛文尼亚",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "GR": {
+        "name": "希腊",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "CV": {
+        "name": "佛得角",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "RU": {
+        "name": "俄罗斯",
+        "count": 1,
+        "intensity": 0.08
+      },
+      "PE": {
+        "name": "秘鲁",
+        "count": 1,
+        "intensity": 0.08
+      }
     }
-  ]
+  }
 };

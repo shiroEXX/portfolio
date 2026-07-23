@@ -4,68 +4,214 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>谢智聪 · 品牌内容作品集</title>
-  <meta name="description" content="品牌部内容主编 / 营销传播作品集：超级AI研究所视频账号、阿里云米兰冬奥 AIGC 全球大赛、赢在AI+ 等品牌项目。" />
+  <meta name="description" content="品牌部内容主编个人作品集：超级AI研究所、阿里云米兰冬奥AIGC全球大赛、赢在AI+等品牌项目。" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- 顶部导航 -->
-  <header class="nav">
+  <!-- 导航栏 -->
+  <header class="nav" id="nav">
     <div class="nav-inner">
-      <a class="brand" href="#top">谢智聪<span>· 作品集</span></a>
-      <nav class="nav-links">
-        <a href="#videos">视频作品</a>
-        <a href="#campaigns">品牌 Campaign</a>
-        <a href="#about">关于我</a>
-      </nav>
+      <a class="brand" href="#">谢智聪<span>· 作品集</span></a>
+      <div class="nav-status"></div>
     </div>
   </header>
 
-  <!-- 首屏 -->
-  <section class="hero" id="top">
+  <!-- 首屏 Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
     <div class="hero-inner">
-      <p class="eyebrow" id="role">品牌部 · 内容主编 / 营销传播</p>
-      <h1 id="name">谢智聪</h1>
-      <p class="tagline" id="tagline"></p>
-      <p class="intro" id="intro"></p>
+      <p class="eyebrow">Portfolio</p>
+      <h1 class="hero-name">谢智聪</h1>
+      <p class="hero-subtitle">品牌内容作品集</p>
+      <p class="hero-desc">此网站为个人过往项目案例作品集</p>
+      <div class="hero-tags">
+        <span class="tag">品牌内容主编</span>
+        <span class="tag">AI科普IP主理人</span>
+        <span class="tag">整合营销传播</span>
+      </div>
+      <a class="scroll-hint" href="#main-area">
+        <span>向下滚动查看项目</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </a>
     </div>
   </section>
 
-  <!-- 视频作品 -->
-  <section class="section" id="videos">
-    <div class="section-head">
-      <h2>视频作品</h2>
-      <p class="section-sub">「超级AI研究所」AI 科普视频账号——主编主导的选题、脚本与发布</p>
-    </div>
-    <div class="grid" id="videoGrid"></div>
-  </section>
+  <!-- 主区域：选项卡 + 内容 -->
+  <main class="main-layout" id="main-area">
+    <!-- 右侧选项卡导航 -->
+    <aside class="tabs-sidebar" id="tabsSidebar">
+      <div class="tabs-label">项目列表</div>
+      <nav class="tabs-nav" id="tabsNav">
+        <button class="tab active" data-tab="ai-lab">
+          <span class="tab-icon">🎬</span>
+          <span class="tab-text">超级AI研究所</span>
+        </button>
+        <button class="tab" data-tab="winter-aigc">
+          <span class="tab-icon">🏂</span>
+          <span class="tab-text">冬奥AIGC大赛</span>
+        </button>
+        <button class="tab" data-tab="winai">
+          <span class="tab-icon">📺</span>
+          <span class="tab-text">《赢在AI+》</span>
+        </button>
+      </nav>
+    </aside>
 
-  <!-- 品牌 Campaign -->
-  <section class="section section-alt" id="campaigns">
-    <div class="section-head">
-      <h2>品牌 Campaign</h2>
-      <p class="section-sub">从全球创意共创到整合频道传播</p>
-    </div>
-    <div class="campaign-list" id="campaignList"></div>
-  </section>
+    <!-- 左侧内容区 -->
+    <div class="content-area" id="contentArea">
 
-  <!-- 关于我 -->
-  <section class="section" id="about">
-    <div class="section-head"><h2>关于我</h2></div>
-    <div class="about-card">
-      <p id="aboutIntro"></p>
-      <p class="contact" id="contact"></p>
-    </div>
-  </section>
+      <!-- ===== Panel 1: 超级AI研究所 ===== -->
+      <div class="tab-panel active" id="panel-ai-lab">
+        <div class="panel-intro">
+          <h2 class="panel-title">【超级AI研究所】IP科普账号</h2>
+          <p class="panel-intro-text">
+            面向泛科技人群的 AI 科普视频 IP，主阵地为<strong>微信视频号</strong>。
+            <a href="https://space.bilibili.com/3546862439107351" target="_blank" rel="noopener noreferrer" class="bilibili-link">B站</a>可查看往期所有视频作品。
+            主导选题策划、脚本撰写与发布运营，累计输出 51 条视频，覆盖 AIGC 视频、大模型应用、具身智能等前沿方向。
+          </p>
+        </div>
+        <div class="video-grid" id="videoGrid"></div>
+      </div>
 
+      <!-- ===== Panel 2: 冬奥AIGC大赛 ===== -->
+      <div class="tab-panel" id="panel-winter-aigc">
+        <div class="panel-intro">
+          <h2 class="panel-title">阿里云米兰冬奥会AIGC全球大赛</h2>
+          <p class="panel-intro-text winter-intro">
+            YOUR EPIC VIBE. 雄鹰从新疆伊犁飞到意大利米兰，从2026冬奥汲取灵感，用AI创作属于你的冰雪史诗。面向全球创作者的AIGC命题赛事，以通义万相WANx等AI创作工具邀请世界各地创作者用AI重新诠释冬奥运动，实现品牌全球化创意共创。
+          </p>
+        </div>
+
+        <!-- KV画面 -->
+        <div class="media-section">
+          <h3 class="section-label">KV 画面</h3>
+          <div class="kv-placeholder">
+            <div class="placeholder-inner">
+              <span class="placeholder-icon">🖼️</span>
+              <span>KV 主视觉画面</span>
+              <small>（素材待补充）</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 项目数据 -->
+        <div class="data-section">
+          <h3 class="section-label">项目数据</h3>
+          <div class="metrics-grid" id="winterMetrics"></div>
+        </div>
+
+        <!-- 全球地图 -->
+        <div class="map-section">
+          <h3 class="section-label">参赛国家/地区分布 <span class="map-count" id="mapCountryCount"></span></h3>
+          <div class="world-map-wrap" id="worldMapWrap">
+            <svg class="world-map" id="worldMap" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet"></svg>
+            <div class="map-tooltip" id="mapTooltip"></div>
+          </div>
+          <div class="map-legend" id="mapLegend"></div>
+        </div>
+
+        <!-- Teaser视频 -->
+        <div class="media-section">
+          <h3 class="section-label">Teaser 视频</h3>
+          <div class="kv-placeholder">
+            <div class="placeholder-inner">
+              <span class="placeholder-icon">🎥</span>
+              <span>Teaser 预告视频</span>
+              <small>（素材待补充）</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOP100集锦视频 -->
+        <div class="media-section">
+          <h3 class="section-label">TOP100 集锦视频</h3>
+          <div class="kv-placeholder">
+            <div class="placeholder-inner">
+              <span class="placeholder-icon">🏆</span>
+              <span>TOP100 精选作品集锦</span>
+              <small>（素材待补充）</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== Panel 3: 赢在AI+ ===== -->
+      <div class="tab-panel" id="panel-winai">
+        <div class="panel-intro">
+          <h2 class="panel-title">阿里云×央视《赢在AI+》第一季</h2>
+          <p class="panel-intro-text winai-intro">
+            阿里云联合央视财经频道推出的AI主题综艺化IP传播项目。整合TVC、微博话题页、视频号、央视频与稿件多渠道资源，形成「话题引爆 + TVC背书 + 视频号渗透 + 稿件沉淀」的全链路传播范式。
+          </p>
+        </div>
+
+        <!-- KV画面 -->
+        <div class="media-section">
+          <h3 class="section-label">KV 画面</h3>
+          <div class="kv-placeholder">
+            <div class="placeholder-inner">
+              <span class="placeholder-icon">🖼️</span>
+              <span>KV 主视觉画面</span>
+              <small>（素材待补充）</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 项目数据 -->
+        <div class="data-section">
+          <h3 class="section-label">项目数据</h3>
+          <div class="metrics-single" id="winaiMetric"></div>
+        </div>
+
+        <!-- TVC -->
+        <div class="media-section">
+          <h3 class="section-label">《赢在AI+》TVC</h3>
+          <div class="kv-placeholder">
+            <div class="placeholder-inner">
+              <span class="placeholder-icon">📺</span>
+              <span>TVC 品牌宣传片</span>
+              <small>（素材待补充）</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 节目回顾视频 -->
+        <div class="media-section">
+          <h3 class="section-label">节目回顾视频</h3>
+          <div class="kv-placeholder">
+            <div class="placeholder-inner">
+              <span class="placeholder-icon">🎬</span>
+              <span>节目精彩回顾</span>
+              <small>（素材待补充）</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- 无人机表演视频 -->
+        <div class="media-section">
+          <h3 class="section-label">无人机表演视频</h3>
+          <div class="kv-placeholder">
+            <div class="placeholder-inner">
+              <span class="placeholder-icon">🚁</span>
+              <span>无人机编队表演</span>
+              <small>（素材待补充）</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- 页脚 -->
   <footer class="footer">
-    <p>© <span id="year"></span> 谢智聪 · 品牌内容作品集</p>
+    <p>&copy; <span id="year"></span> 谢智聪 · 品牌内容作品集</p>
   </footer>
 
   <!-- 视频详情模态层 -->
   <div class="modal" id="modal" aria-hidden="true">
     <div class="modal-backdrop" data-close></div>
     <div class="modal-dialog" role="dialog" aria-modal="true">
-      <button class="modal-close" data-close aria-label="关闭">×</button>
+      <button class="modal-close" data-close aria-label="关闭">&times;</button>
       <div class="modal-body" id="modalBody"></div>
     </div>
   </div>
