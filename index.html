@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>谢智聪 · 品牌内容作品集</title>
+  <meta name="description" content="品牌部内容主编 / 营销传播作品集：超级AI研究所视频账号、阿里云米兰冬奥 AIGC 全球大赛、赢在AI+ 等品牌项目。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top">谢智聪<span>· 作品集</span></a>
+      <nav class="nav-links">
+        <a href="#videos">视频作品</a>
+        <a href="#campaigns">品牌 Campaign</a>
+        <a href="#about">关于我</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 首屏 -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="eyebrow" id="role">品牌部 · 内容主编 / 营销传播</p>
+      <h1 id="name">谢智聪</h1>
+      <p class="tagline" id="tagline"></p>
+      <p class="intro" id="intro"></p>
+    </div>
+  </section>
+
+  <!-- 视频作品 -->
+  <section class="section" id="videos">
+    <div class="section-head">
+      <h2>视频作品</h2>
+      <p class="section-sub">「超级AI研究所」AI 科普视频账号——主编主导的选题、脚本与发布</p>
+    </div>
+    <div class="grid" id="videoGrid"></div>
+  </section>
+
+  <!-- 品牌 Campaign -->
+  <section class="section section-alt" id="campaigns">
+    <div class="section-head">
+      <h2>品牌 Campaign</h2>
+      <p class="section-sub">从全球创意共创到整合频道传播</p>
+    </div>
+    <div class="campaign-list" id="campaignList"></div>
+  </section>
+
+  <!-- 关于我 -->
+  <section class="section" id="about">
+    <div class="section-head"><h2>关于我</h2></div>
+    <div class="about-card">
+      <p id="aboutIntro"></p>
+      <p class="contact" id="contact"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> 谢智聪 · 品牌内容作品集</p>
+  </footer>
+
+  <!-- 视频详情模态层 -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close aria-label="关闭">×</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
