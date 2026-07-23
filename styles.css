@@ -300,6 +300,16 @@ a:hover { color: var(--accent); filter: brightness(1.1); }
 
 /* ===== 媒体占位 ===== */
 .media-section { margin: 2rem 0; }
+.kv-img {
+  width: 100%; border-radius: var(--radius-sm); display: block;
+  box-shadow: var(--shadow-sm); background: #f1f5f9;
+  transition: box-shadow var(--transition);
+}
+.kv-img:hover { box-shadow: var(--shadow-md); }
+.media-video {
+  width: 100%; border-radius: var(--radius-sm); display: block;
+  background: #0f172a; aspect-ratio: 16/9; box-shadow: var(--shadow-sm);
+}
 .kv-placeholder {
   background: var(--card-bg); border: 2px dashed var(--card-border);
   border-radius: var(--radius); padding: 3rem 2rem; text-align: center;
