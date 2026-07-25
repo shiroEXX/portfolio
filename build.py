@@ -14,6 +14,7 @@ SITE = "/workspace/site"
 DATA = f"{SITE}/data"
 MEDIA = "assets/media"
 COVERS = "assets/covers"
+SCRIPTS = "/workspace/scripts"
 os.makedirs(DATA, exist_ok=True)
 
 
@@ -53,6 +54,41 @@ def fmt(n):
         return str(n)
 
 
+def norm(s):
+    """归一化标题：去空白与常见标点/引号，便于模糊匹配。"""
+    import unicodedata
+    s = (s or "").replace("【AIGC视频】", "").replace("【", "").replace("】", "")
+    s = s.replace("“", "").replace("”", "").replace('"', "").replace("'", "")
+    s = s.replace("「", "").replace("」", "").replace("(", "").replace(")", "")
+    s = s.replace("（", "").replace("）", "").replace("：", "").replace(":", "")
+    s = s.replace("，", "").replace(",", "").replace("！", "").replace("!", "")
+    s = s.replace("?", "").replace("？", "").replace("、", "").replace("·", "")
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    return re.sub(r"\s+", "", s)
+
+
+def parse_scripts():
+    """读取 /workspace/scripts 下 13 个 JSON 脚本，返回 {归一化标题: 正文}。"""
+    out = {}
+    if not os.path.isdir(SCRIPTS):
+        return out
+    for fn in sorted(os.listdir(SCRIPTS)):
+        if not fn.endswith(".md"):
+            continue
+        try:
+            raw = json.load(open(f"{SCRIPTS}/{fn}", encoding="utf-8"))
+            content = raw["data"]["document"]["content"]
+        except Exception:
+            continue
+        m = re.search(r"#\s*(.+)", content)
+        heading = clean(m.group(1)) if m else ""
+        out[norm(heading)] = content
+    return out
+
+
+SCRIPTS_MAP = parse_scripts()
+
+
 # ============================================================
 # 1) 超级AI研究所（AI Lab）—— 来自 T1 视频数据
 # ============================================================
@@ -77,7 +113,7 @@ for r in t1:
     videos.append({
         "title": title,
         "bvid": bvid,
-        "url": link if link else (f"https://www.bilibili.com/video/{bvid}" if bvid else ""),
+        "url": f"https://www.bilibili.com/video/{bvid}" if bvid else "",
         "cover": cover,
         "plays": int(plays * 10000),
         "interactions": int(inter),
@@ -85,6 +121,35 @@ for r in t1:
     })
 featured = [v for v in videos if v["isMain"]]
 ai_lab_kv = featured[0]["cover"] if featured else (videos[0]["cover"] if videos else "")
+
+# ---- 为 featured 视频匹配「内容脚本」（按 H1 标题归一化匹配）----
+def attach_scripts(feats):
+    matched, fallback = 0, 0
+    for v in feats:
+        key = norm(v["title"])
+        # 精确归一化匹配
+        if key in SCRIPTS_MAP:
+            v["script"] = SCRIPTS_MAP[key]
+            v["scriptTitle"] = v["title"]
+            matched += 1
+            continue
+        # 兜底：脚本标题为视频标题的子串 / 视频标题为脚本标题的子串
+        hit = None
+        for k, c in SCRIPTS_MAP.items():
+            if key and (key in k or k in key):
+                hit = c
+                break
+        if hit:
+            v["script"] = hit
+            v["scriptTitle"] = v["title"]
+            fallback += 1
+        else:
+            v["script"] = ""
+            v["scriptTitle"] = v["title"]
+    print(f"  脚本匹配：精确 {matched} / 兜底 {fallback} / 未匹配 {len(feats) - matched - fallback}")
+    return feats
+
+featured = attach_scripts(featured)
 
 # ============================================================
 # 2) 冬奥 AIGC —— 来自 T5 数据汇总 + map-data.json

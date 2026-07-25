@@ -10,12 +10,14 @@
   /* ---------- 工具 ---------- */
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
-  const fmt = (n) =>
-    Number(n) >= 1e8
-      ? (n / 1e8).toFixed(1) + "亿"
-      : Number(n) >= 1e4
-      ? (n / 1e4).toFixed(1) + "万"
+  const fmt = (n) => {
+    const v = Number(String(n).replace(/,/g, ""));
+    return v >= 1e8
+      ? (v / 1e8).toFixed(1) + "亿"
+      : v >= 1e4
+      ? (v / 1e4).toFixed(1) + "w"
       : String(n);
+  };
   const esc = (s) =>
     String(s == null ? "" : s).replace(/[&<>"']/g, (c) =>
       ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])
@@ -46,9 +48,6 @@
   const NAV = [
     { id: "index", label: "首页", href: "index.html" },
     { id: "portfolio", label: "作品集", href: "portfolio.html" },
-    { id: "services", label: "服务技能", href: "services.html" },
-    { id: "about", label: "关于我", href: "about.html" },
-    { id: "contact", label: "联系我", href: "contact.html" },
   ];
   function renderNav() {
     const root = $("#site-nav");
@@ -57,22 +56,16 @@
       (n) =>
         `<a href="${n.href}" data-nav="${n.id}" class="nav-link px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${
           n.id === PAGE
-            ? "text-white bg-zinc-900"
-            : "text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100"
+          ? "text-white bg-indigo-600"
+          : "text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100"
         }">${n.label}</a>`
     ).join("");
     root.innerHTML = `
       <nav class="fixed top-0 inset-x-0 z-50 transition-all duration-300" id="nav-bar">
         <div class="mx-auto max-w-6xl px-5">
-          <div class="flex items-center justify-between h-16">
-            <a href="index.html" class="flex items-center gap-2 font-display font-bold text-lg tracking-tight text-zinc-900">
-              <span class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-zinc-900 text-white">${esc(
-                (D.profile && D.profile.name ? D.profile.name[0] : "S")
-              )}</span>
-              <span>${esc(D.profile ? D.profile.name : "作品集")}</span>
-            </a>
-            <div class="hidden md:flex items-center gap-1">${links}</div>
-            <button class="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg text-zinc-700 hover:bg-zinc-100" id="nav-toggle" aria-label="菜单">${icon(
+          <div class="flex items-center h-16">
+            <div class="flex items-center gap-1">${links}</div>
+            <button class="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg text-zinc-700 hover:bg-zinc-100 ml-auto" id="nav-toggle" aria-label="菜单">${icon(
               "menu",
               "w-6 h-6"
             )}</button>
@@ -115,19 +108,8 @@
       .join('<span class="text-zinc-300">·</span>');
     root.innerHTML = `
       <footer class="border-t border-zinc-100 bg-zinc-50">
-        <div class="mx-auto max-w-6xl px-5 py-12 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <div>
-            <div class="font-display font-bold text-zinc-900 text-lg">${esc(
-              D.profile ? D.profile.name : "谢智聪"
-            )}</div>
-            <p class="text-sm text-zinc-500 mt-1 max-w-sm">${esc(
-              D.profile ? D.profile.role : ""
-            )}</p>
-          </div>
-          <div class="flex flex-wrap items-center gap-3 text-sm">${socials}</div>
-        </div>
-        <div class="mx-auto max-w-6xl px-5 pb-8 text-xs text-zinc-400">
-          © ${new Date().getFullYear()} ${esc(D.profile ? D.profile.name : "谢智聪")} · 个人作品集 · 数据驱动生成
+        <div class="mx-auto max-w-6xl px-5 pb-8 pt-8 text-xs text-zinc-400">
+          ©谢智聪 · 个人作品集
         </div>
       </footer>`;
   }
@@ -136,8 +118,8 @@
   function sectionHead(eyebrow, title, sub) {
     return `
       <div class="reveal mb-10 md:mb-14">
-        <div class="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-blue-600 mb-3">
-          <span class="h-px w-6 bg-blue-600"></span>${esc(eyebrow)}
+        <div class="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-indigo-600 mb-3">
+          <span class="h-px w-6 bg-amber-500"></span>${esc(eyebrow)}
         </div>
         <h2 class="font-display text-3xl md:text-5xl font-bold tracking-tight text-zinc-900">${esc(
           title
@@ -156,7 +138,7 @@
       .slice(0, 3)
       .map(
         (r) =>
-          `<div><div class="font-display text-2xl font-bold text-zinc-900">${esc(
+          `<div><div class="font-display text-2xl font-bold text-zinc-900">${fmt(
             r.value
           )}<span class="text-sm font-medium text-zinc-400 ml-0.5">${esc(r.suffix || "")}</span></div><div class="text-xs text-zinc-500 mt-0.5">${esc(
             r.label
@@ -166,7 +148,7 @@
     return `
       <article class="reveal group project-card" data-id="${esc(p.id)}" data-tags="${esc(
       (p.tags || []).join(",")
-    )}" style="--accent:${esc(p.accent || "#2563eb")}">
+    )}" style="--accent:${esc(p.accent || "#4f46e5")}">
         <button class="block w-full text-left focus:outline-none" data-open="${esc(p.id)}">
           <div class="relative overflow-hidden rounded-2xl bg-zinc-100 aspect-[16/10] mb-5">
             ${
@@ -181,13 +163,13 @@
               p.tagline
             )}</span>
           </div>
-          <h3 class="font-display text-xl font-bold text-zinc-900 group-hover:text-blue-600 transition-colors">${esc(
+          <h3 class="font-display text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors">${esc(
             p.name
           )}</h3>
           <p class="mt-2 text-sm text-zinc-500 line-clamp-2">${esc(p.description)}</p>
           <div class="mt-4 flex flex-wrap gap-2">${tags}</div>
           <div class="mt-5 grid grid-cols-3 gap-3 border-t border-zinc-100 pt-4">${results}</div>
-          <div class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">查看项目详情 ${icon(
+          <div class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-indigo-600">查看项目详情 ${icon(
             "arrow",
             "w-4 h-4"
           )}</div>
@@ -203,7 +185,7 @@
     if (_echartsPromise) return _echartsPromise;
     _echartsPromise = new Promise((resolve, reject) => {
       const s = document.createElement("script");
-      s.src = "https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js";
+      s.src = "assets/echarts.min.js";
       s.async = true;
       s.onload = () => (window.echarts ? resolve(window.echarts) : reject(new Error("echarts load failed")));
       s.onerror = () => reject(new Error("echarts cdn error"));
@@ -234,21 +216,6 @@
     return _worldGeoPromise;
   }
 
-  function chipsHtml(p) {
-    const arr = Object.entries(p.mapData.countries)
-      .map(([k, v]) => ({ code: k, ...v }))
-      .sort((a, b) => b.count - a.count)
-      .slice(0, 24);
-    return arr
-      .map(
-        (c) =>
-          `<span class="inline-flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">${esc(
-            c.name
-          )}<b class="font-semibold">${c.count}</b></span>`
-      )
-      .join("");
-  }
-
   function renderWinterMap(p) {
     const el = document.getElementById("winter-map");
     if (!el) return;
@@ -258,19 +225,12 @@
         window.__winterChart = chart;
         const data = Object.entries(p.mapData.countries).map(([code, c]) => ({ name: code, value: c.count }));
         chart.setOption({
-          tooltip: {
-            trigger: "item",
-            formatter: (pp) => (pp.value != null ? pp.name + "：" + pp.value + " 件" : pp.name),
-          },
+          tooltip: { show: false },
           visualMap: {
+            show: false,
             min: 1,
             max: p.mapData.maxCount || 13,
-            left: 12,
-            bottom: 12,
-            text: ["多", "少"],
-            calculable: true,
             inRange: { color: ["#ecfdf5", "#a7f3d0", "#34d399", "#059669", "#047857"] },
-            textStyle: { color: "#64748b" },
           },
           series: [
             {
@@ -292,11 +252,6 @@
       .catch(() => {
         const m = document.getElementById("winter-map");
         if (m) m.style.display = "none";
-        const fb = document.getElementById("winter-map-fallback");
-        if (fb) {
-          fb.classList.remove("hidden");
-          fb.innerHTML = chipsHtml(p);
-        }
       });
   }
 
@@ -316,7 +271,7 @@
     const results = (p.results || [])
       .map(
         (r) =>
-          `<div class="rounded-xl bg-zinc-50 border border-zinc-100 p-4"><div class="font-display text-2xl font-bold text-zinc-900">${esc(
+          `<div class="rounded-xl bg-zinc-50 border border-zinc-100 p-4"><div class="font-display text-2xl font-bold text-zinc-900">${fmt(
             r.value
           )}<span class="text-sm text-zinc-400 ml-0.5">${esc(r.suffix || "")}</span></div><div class="text-xs text-zinc-500 mt-1">${esc(
             r.label
@@ -334,7 +289,7 @@
               ${v.cover ? `<img src="${esc(v.cover)}" alt="${esc(v.title)}" loading="lazy" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" onerror="this.style.display='none'">` : ""}
               <span class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-zinc-900/30 text-white">${icon("play","w-8 h-8")}</span>
             </div>
-            <div class="mt-2 text-sm text-zinc-700 line-clamp-1 group-hover:text-blue-600">${esc(v.title)}</div>
+            <div class="mt-2 text-sm text-zinc-700 line-clamp-1 group-hover:text-indigo-600">${esc(v.title)}</div>
             <div class="text-xs text-zinc-400">${fmt(v.plays)} 播放 · ${fmt(v.interactions)} 互动</div>
           </a>`
         )
@@ -364,10 +319,6 @@
             "w-5 h-5"
           )}</span> 全球创作者参与</div>
           <div id="winter-map" class="mt-3 w-full" style="height:384px"></div>
-          <p class="mt-2 text-xs text-zinc-400">颜色越深代表参赛作品越多；共 ${esc(
-            p.mapData.totalCountries
-          )} 个国家/地区有作品入选。</p>
-          <div id="winter-map-fallback" class="mt-3 flex flex-wrap gap-2 hidden"></div>
         </div>`;
     }
 
@@ -375,14 +326,14 @@
       <div class="fixed inset-0 z-[60] flex items-start justify-center p-4 sm:p-8 overflow-y-auto" id="modal-overlay">
         <div class="fixed inset-0 bg-zinc-900/50 backdrop-blur-sm" data-close></div>
         <div class="relative z-10 w-full max-w-3xl bg-white rounded-3xl shadow-2xl my-8 overflow-hidden" role="dialog" aria-modal="true">
-          <div class="h-1.5 w-full" style="background:${esc(p.accent || "#2563eb")}"></div>
+          <div class="h-1.5 w-full" style="background:${esc(p.accent || "#4f46e5")}"></div>
           <button class="absolute top-4 right-4 z-20 inline-flex h-9 w-9 items-center justify-center rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200" data-close aria-label="关闭">${icon(
             "close",
             "w-5 h-5"
           )}</button>
           <div class="p-6 sm:p-8">
             <div class="text-xs font-semibold tracking-widest uppercase mb-2" style="color:${esc(
-              p.accent || "#2563eb"
+              p.accent || "#4f46e5"
             )}">${esc(p.tagline)}</div>
             <h3 class="font-display text-2xl sm:text-3xl font-bold text-zinc-900">${esc(p.name)}</h3>
             <p class="mt-1 text-sm text-zinc-500">${esc(p.role)}</p>
@@ -433,104 +384,33 @@
     if (!root) return;
     const p = D.profile || {};
     const projects = D.projects || [];
-    const globalExposure = (() => {
-      let e = 0;
-      projects.forEach((x) => {
-        if (x.metrics && x.metrics.domesticExposure) e += (x.metrics.domesticExposure + (x.metrics.intlExposure || 0)) / 1e8;
-        if (x.metrics && x.metrics.exposureW) e += x.metrics.exposureW / 1e4;
-      });
-      return Math.round(e);
-    })();
-    const videoCount = (projects[0] && projects[0].videos ? projects[0].videos.length : 0);
-    const countryCount = (projects[1] && projects[1].metrics ? projects[1].metrics.countries : 0);
-    const stats = [
-      { v: projects.length, s: "", l: "标志性项目" },
-      { v: videoCount, s: "+", l: "支科普视频" },
-      { v: countryCount, s: "", l: "国创作者参与" },
-      { v: globalExposure, s: "亿+", l: "全球总曝光" },
-    ];
     root.innerHTML = `
-      <header class="relative pt-28 md:pt-36 pb-16 md:pb-24 overflow-hidden">
-        <div class="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-blue-100 blur-3xl opacity-60"></div>
+      <header class="relative pt-28 md:pt-36 pb-12 md:pb-16 overflow-hidden">
+        <div class="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-indigo-100 blur-3xl opacity-60"></div>
         <div class="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-zinc-200 blur-3xl opacity-50"></div>
         <div class="relative mx-auto max-w-6xl px-5">
-          <div class="reveal inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-blue-600 mb-5">
-            <span class="h-px w-8 bg-blue-600"></span>个人作品集 · Portfolio
+          <div class="reveal inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-indigo-600 mb-5">
+            <span class="h-px w-8 bg-amber-500"></span>个人作品集 · Portfolio
           </div>
           <h1 class="reveal font-display font-bold tracking-tight text-zinc-900 text-5xl sm:text-6xl md:text-7xl leading-[1.05]">
             ${esc(p.name || "谢智聪")}
           </h1>
-          <p class="reveal mt-4 text-lg md:text-2xl text-zinc-500 font-medium">${esc(p.role || "")}</p>
           <p class="reveal mt-6 max-w-2xl text-base md:text-lg text-zinc-600 leading-relaxed">${esc(
             p.bio || p.tagline || ""
           )}</p>
           <div class="reveal mt-8 flex flex-wrap gap-3">
-            <a href="portfolio.html" class="inline-flex items-center gap-2 rounded-full bg-zinc-900 px-6 py-3 text-sm font-semibold text-white hover:bg-zinc-800 transition-colors">查看作品集 ${icon(
+            <a href="portfolio.html" class="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-700 transition-colors">查看作品集 ${icon(
               "arrow",
               "w-4 h-4"
             )}</a>
-            <a href="contact.html" class="inline-flex items-center gap-2 rounded-full border border-zinc-300 px-6 py-3 text-sm font-semibold text-zinc-800 hover:border-zinc-900 transition-colors">联系我 ${icon(
-              "mail",
-              "w-4 h-4"
-            )}</a>
-          </div>
-          <div class="reveal mt-14 grid grid-cols-2 md:grid-cols-4 gap-px bg-zinc-100 rounded-2xl overflow-hidden border border-zinc-100">
-            ${stats
-              .map(
-                (s) =>
-                  `<div class="bg-white p-5 md:p-6"><div class="font-display text-3xl md:text-4xl font-bold text-zinc-900">${fmt(
-                    s.v
-                  ).replace(/亿/, "")}${s.s}</div><div class="text-xs md:text-sm text-zinc-500 mt-1">${esc(
-                    s.l
-                  )}</div></div>`
-              )
-              .join("")}
           </div>
         </div>
       </header>
 
       <section class="py-14 md:py-20">
         <div class="mx-auto max-w-6xl px-5">
-          ${sectionHead("精选作品", "代表性项目", "从一支支 AI 科普短视频，到国家级传播 campaign——以下是三个标志性案例。")}
+          ${sectionHead("", "部分过往项目", "")}
           <div class="grid md:grid-cols-3 gap-6">${projects.map(projectCard).join("")}</div>
-        </div>
-      </section>
-
-      <section class="py-14 md:py-20 bg-zinc-50">
-        <div class="mx-auto max-w-6xl px-5">
-          ${sectionHead("我能提供", "核心服务与技能", "覆盖从内容策划、AIGC 制作到整合营销传播的全链路能力。")}
-          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            ${(D.services || [])
-              .slice(0, 3)
-              .map(
-                (s) => `
-              <div class="reveal rounded-2xl border border-zinc-100 bg-white p-6 hover:shadow-lg transition-shadow">
-                <div class="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">${icon(
-                  s.icon
-                )}</div>
-                <h3 class="mt-4 font-display font-bold text-zinc-900">${esc(s.title)}</h3>
-                <p class="mt-2 text-sm text-zinc-500 leading-relaxed">${esc(s.desc)}</p>
-              </div>`
-              )
-              .join("")}
-          </div>
-          <div class="reveal mt-8"><a href="services.html" class="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 hover:gap-2 transition-all">查看全部服务技能 ${icon(
-            "arrow",
-            "w-4 h-4"
-          )}</a></div>
-        </div>
-      </section>
-
-      <section class="py-16 md:py-24">
-        <div class="mx-auto max-w-6xl px-5">
-          <div class="reveal rounded-3xl bg-zinc-900 text-white p-10 md:p-14 text-center">
-            <h2 class="font-display text-2xl md:text-4xl font-bold">让我们一起，把技术讲成好故事</h2>
-            <p class="mt-3 text-zinc-300 max-w-xl mx-auto">无论是品牌内容、AIGC 制作还是整合营销传播，欢迎交流合作。</p>
-            <a href="contact.html" class="mt-7 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-zinc-900 hover:bg-zinc-100 transition-colors">联系我 ${icon(
-              "mail",
-              "w-4 h-4"
-            )}</a>
-          </div>
         </div>
       </section>`;
     bindProjectOpen();
@@ -541,43 +421,16 @@
     const root = $("#page-content");
     if (!root) return;
     const projects = D.projects || [];
-    const allTags = Array.from(new Set(projects.flatMap((p) => p.tags || [])));
     root.innerHTML = `
       <section class="pt-28 md:pt-36 pb-12">
         <div class="mx-auto max-w-6xl px-5">
           ${sectionHead("作品集", "项目案例", "点击任意项目卡片，查看完整成果、媒体与传播数据。")}
-          <div class="reveal flex flex-wrap gap-2 mb-8" id="tag-filter">
-            <button class="tag-btn px-3.5 py-1.5 rounded-full text-sm font-medium bg-zinc-900 text-white" data-tag="__all">全部</button>
-            ${allTags
-              .map(
-                (t) =>
-                  `<button class="tag-btn px-3.5 py-1.5 rounded-full text-sm font-medium bg-zinc-100 text-zinc-600 hover:bg-zinc-200" data-tag="${esc(
-                    t
-                  )}">${esc(t)}</button>`
-              )
-              .join("")}
-          </div>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="project-grid">${projects
             .map(projectCard)
             .join("")}</div>
         </div>
       </section>`;
     bindProjectOpen();
-    $$("#tag-filter .tag-btn").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        $$("#tag-filter .tag-btn").forEach((b) => {
-          b.classList.remove("bg-zinc-900", "text-white");
-          b.classList.add("bg-zinc-100", "text-zinc-600");
-        });
-        btn.classList.add("bg-zinc-900", "text-white");
-        btn.classList.remove("bg-zinc-100", "text-zinc-600");
-        const tag = btn.dataset.tag;
-        $$("#project-grid .project-card").forEach((card) => {
-          const tags = (card.dataset.tags || "").split(",");
-          card.style.display = tag === "__all" || tags.includes(tag) ? "" : "none";
-        });
-      });
-    });
   }
 
   /* ---------- 服务技能 ---------- */
@@ -595,7 +448,7 @@
                 (s, i) => `
               <div class="reveal rounded-2xl border border-zinc-100 bg-white p-6 hover:shadow-lg transition-shadow group">
                 <div class="flex items-center justify-between">
-                  <div class="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">${icon(
+                  <div class="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-colors">${icon(
                     s.icon
                   )}</div>
                   <span class="font-display text-sm text-zinc-300">0${i + 1}</span>
@@ -622,8 +475,8 @@
       .map(
         (e, i) => `
         <div class="reveal relative pl-8 pb-8 border-l border-zinc-200 last:border-0">
-          <span class="absolute -left-[7px] top-1 h-3 w-3 rounded-full bg-blue-600 ring-4 ring-blue-50"></span>
-          <div class="text-xs font-semibold text-blue-600">${esc(e.period || "")}</div>
+          <span class="absolute -left-[7px] top-1 h-3 w-3 rounded-full bg-indigo-600 ring-4 ring-indigo-50"></span>
+          <div class="text-xs font-semibold text-indigo-600">${esc(e.period || "")}</div>
           <h3 class="mt-1 font-display font-bold text-zinc-900">${esc(e.title || "")}</h3>
           <div class="text-sm text-zinc-500">${esc(e.org || "")}</div>
           <p class="mt-2 text-sm text-zinc-600 leading-relaxed">${esc(e.desc || "")}</p>
@@ -645,7 +498,7 @@
       .map(
         (e) => `
         <div class="reveal flex items-start gap-3 py-3 border-b border-zinc-100 last:border-0">
-          <span class="text-xs font-semibold text-blue-600 whitespace-nowrap">${esc(e.period || "")}</span>
+          <span class="text-xs font-semibold text-indigo-600 whitespace-nowrap">${esc(e.period || "")}</span>
           <div><div class="font-medium text-zinc-800">${esc(e.school || "")}</div><div class="text-sm text-zinc-500">${esc(
             e.major || ""
           )}</div></div>
@@ -693,7 +546,7 @@
       <section class="pt-28 md:pt-36 pb-16">
         <div class="mx-auto max-w-3xl px-5 text-center">
           ${sectionHead("联系我", "一起把技术讲成好故事", "无论是品牌内容合作、AIGC 制作还是整合营销传播，欢迎随时联系。")}
-          <a href="mailto:${esc(c.email || "")}" class="reveal inline-flex items-center gap-2 rounded-full bg-zinc-900 px-7 py-3.5 text-sm font-semibold text-white hover:bg-zinc-800 transition-colors">${icon(
+          <a href="mailto:${esc(c.email || "")}" class="reveal inline-flex items-center gap-2 rounded-full bg-indigo-600 px-7 py-3.5 text-sm font-semibold text-white hover:bg-indigo-700 transition-colors">${icon(
             "mail",
             "w-5 h-5"
           )} ${esc(c.email || "email")}</a>

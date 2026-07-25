@@ -4,14 +4,14 @@ window.SITE_DATA = {
     "name": "谢智聪",
     "role": "品牌内容主编 · AI 科普 IP 主理人 · 整合营销传播",
     "tagline": "以 AI 的视角，解码现象背后的先进技术",
-    "bio": "深耕科技品牌内容建设与整合营销传播，长期负责阿里云「超级 AI 研究所」AI 科普 IP 的内容策划与主编工作，并主导米兰冬奥 AIGC 全球大赛、《赢在 AI+》等国家级传播 campaign 的内容与传播落地。擅长把硬核技术翻译成大众可感知的叙事，以内容驱动品牌增长。",
+    "bio": "头部乙方与甲方互联网双重背景，拥有快消与科技品牌的内容建设与整合营销传播项目经验，长期负责阿里云「超级 AI 研究所」AI 科普 IP 账号的内容策划与主编工作，深度参与阿里云米兰冬奥 AIGC 全球大赛、央视《赢在 AI+》等大型传播 campaign 的内容与传播落地。",
     "location": "中国 · 杭州"
   },
   "projects": [
     {
       "id": "ai-lab",
       "name": "超级 AI 研究所",
-      "accent": "#2563eb",
+      "accent": "#4f46e5",
       "tagline": "硬科技，软表达 —— AI 科普短视频 IP",
       "description": "《超级AI研究所》是由阿里云市场部打造的原创视频IP，已在微信视频号（主阵地）、抖音、B站及YouTube等平台建立账号矩阵。这是一个专注于深度解读热点现象背后先进AI技术的知识型（科普）短视频账号，面向AI科技爱好者、从业者、行业专家以及对AI应用感兴趣的用户，展现AI如何切实影响生活、工作与各行各业。",
       "role": "账号主编之一",
@@ -52,7 +52,7 @@ window.SITE_DATA = {
         "短视频",
         "内容主编"
       ],
-      "kv": "assets/covers/BV1YNbNzxER1.jpg",
+      "kv": "assets/covers/ai-lab-kv.jpg",
       "videos": [
         {
           "title": "我们小时候玩泥巴，α世代的童年直接上AI大招",
@@ -681,7 +681,7 @@ window.SITE_DATA = {
     },
     {
       "id": "winter",
-      "name": "米兰冬奥 AIGC 全球大赛",
+      "name": "阿里云米兰冬奥 AIGC 全球大赛",
       "accent": "#059669",
       "tagline": "「意」展你风采 · 全球首个官方奥运粉丝 AIGC 大赛",
       "description": "YOUR EPIC VIBE —— Powered by Alibaba Cloud AI Technology Alibaba Cloud AIGC Championship @ Milano Cortina 2026 \"意\"展你风采 米兰冬奥AIGC 大赛——由阿里云AI技术支持 呼应本届米兰冬奥会官方主张为\"IT'S YOUR VIBE\"（意展你风采）与国际奥委会革新奥运粉丝参与运动方式的诉求，奥林匹克官方云服务合作伙伴阿里云，携手国际奥委会与米兰-科尔蒂纳2026冬奥组委会，共同发起全球首个官方奥运粉丝AIGC互动项目，由全球奥运粉丝基于阿里云通义大模型进行花样滑冰、短道速滑、高山滑雪、单板滑雪四项运动的AIGC创作，并由组委会将其中100幅优秀作品汇聚为奥运史上首个AIGC数字艺术作品《YOUR EPIC VIBE》纳入奥林匹克博物馆馆藏，并在2月6日起进行全球多地进行联展（瑞士洛桑、意大利米兰、中国杭州）。",
