@@ -13,8 +13,8 @@ window.SITE_DATA = {
       "name": "超级 AI 研究所",
       "accent": "#2563eb",
       "tagline": "硬科技，软表达 —— AI 科普短视频 IP",
-      "description": "阿里云及旗下产品的「技术品牌内容化外溢」阵地，以「引入—分幕解码—价值升华—品牌软收」四段式口播，把通义、万相 Wan、无影、夸克等产品的技术能力，翻译成人人能懂的科普故事。视频首发 B 站、主阵地视频号，矩阵覆盖小红书、YouTube。",
-      "role": "品牌内容主编 · AI 科普 IP 主理人",
+      "description": "《超级AI研究所》是由阿里云市场部打造的原创视频IP，已在微信视频号（主阵地）、抖音、B站及YouTube等平台建立账号矩阵。这是一个专注于深度解读热点现象背后先进AI技术的知识型（科普）短视频账号，面向AI科技爱好者、从业者、行业专家以及对AI应用感兴趣的用户，展现AI如何切实影响生活、工作与各行各业。",
+      "role": "账号主编之一",
       "results": [
         {
           "label": "已发布视频",
@@ -50,16 +50,14 @@ window.SITE_DATA = {
       "tags": [
         "AI 科普",
         "短视频",
-        "内容主编",
-        "整合营销",
-        "IP 主理人"
+        "内容主编"
       ],
       "kv": "assets/covers/BV1YNbNzxER1.jpg",
       "videos": [
         {
           "title": "我们小时候玩泥巴，α世代的童年直接上AI大招",
           "bvid": "BV1Jr7zzzEQQ",
-          "url": "[https://www.bilibili.com/video/BV1Jr7zzzEQQ/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1Jr7zzzEQQ/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1Jr7zzzEQQ",
           "cover": "assets/covers/BV1Jr7zzzEQQ.jpg",
           "plays": 150000,
           "interactions": 6525,
@@ -68,7 +66,7 @@ window.SITE_DATA = {
         {
           "title": "起猛了，这届AI都开始填高考志愿了？",
           "bvid": "BV1AHgkzvEzy",
-          "url": "[https://www.bilibili.com/video/BV1AHgkzvEzy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1AHgkzvEzy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1AHgkzvEzy",
           "cover": "assets/covers/BV1AHgkzvEzy.jpg",
           "plays": 12000,
           "interactions": 807,
@@ -77,7 +75,7 @@ window.SITE_DATA = {
         {
           "title": "爆火！AI宠物为什么让年轻人越养越上头？",
           "bvid": "BV16chWzZEgd",
-          "url": "[https://www.bilibili.com/video/BV16chWzZEgd/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV16chWzZEgd/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV16chWzZEgd",
           "cover": "assets/covers/BV16chWzZEgd.jpg",
           "plays": 66000,
           "interactions": 7279,
@@ -86,16 +84,18 @@ window.SITE_DATA = {
         {
           "title": "千镜大战，离「超级终端」还有多远？",
           "bvid": "BV1YNbNzxER1",
-          "url": "[https://www.bilibili.com/video/BV1YNbNzxER1/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1YNbNzxER1/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1YNbNzxER1",
           "cover": "assets/covers/BV1YNbNzxER1.jpg",
           "plays": 205000,
           "interactions": 16713,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AI眼镜】千镜大战，离「超级终端」还有多远？\n\n生活中当你看到路人穿着一件好看的衣服时会怎么做？\n\n如果是E人，可能会走上前去问：“你这件衣服在哪买的？”\n\n但如果是I人，估计只会偷偷掏出手机，打开淘宝悄悄拍张照。\n\n不过对I人来说，现在有了一个新工具——AI眼镜。\n\n只要眨眨眼就能在淘宝找同款，甚至还能自动比价。\n\n这种便利功能背后，其实是一场全球科技企业的“千镜大战”。\n\n今天，我们将走进“硝烟弥漫”的AI眼镜，参与这场“鼻梁”争夺战。\n\n\n\n欢迎来到超级AI研究所，以AI的视角，解码现象背后的先进技术。\n\n\n\n**Part1 鼻梁上的科技争夺战**\n\n当现实与数字的边界开始坍缩，一场关于“AI视觉革命”的星火，已在全球悄然燎原。\n\n这是AI元年全球“造镜运动”的第一簇火焰——Ray-Ban Meta智能眼镜。\n\n它由科技巨头Meta携手时尚品牌雷朋联手打造，是当时最潮的科技单品，两年销量突破百万。\n\n今年，Google、微软、苹果三大巨头公司也纷纷宣布入局，AI眼镜大战一触即发。\n\n其中，自然也少不了中国科技力量的加入。\n\n2025年7月末，阿里夸克推出自研AI眼镜“哇哦 Quark Glasses”，携带顶配硬件与阿里全生态阵容亮相。\n\nXREAL、Rokid也同步亮出自家新品。在此之前的一个月，小米也官宣入局。\n\n科技巨头接连下场的背后，是AI眼镜早已被业内称为继智能手机后最重要的移动终端。\n\n这不是简单的硬件迭代，而是一场感知维度的跃迁。\n\n引得科技巨头与科技新秀纷纷押注的AI眼镜是下一代超级终端吗？\n\n这场有关“视觉文明”的竞速究竟意味着什么？\n\n在回答这些问题之前，我们要先回看两次过去时的技术演进。\n\n\n\n**Part2 视觉革命：从物理空间到数字空间**\n\n视觉是人类最重要的感觉通道，占据信息来源的83%，是我们认知世界的绝对主力。\n\n随着计算机技术的发展，人类也持续探索视觉上的升级，构想将计算机与人眼相结合，创造出更强大的视觉系统。\n\n1968年，计算机图形学家伊万·萨瑟兰发明了第一款头戴式显示设备“达摩克利斯之剑”。\n\n尽管它体积庞大、功能简陋，却为AR技术奠定了基础。\n\n1984年，科幻电影《终结者》的主角T800眼睛里的数据显示设备，让人们在赛博镜片后窥见自己的视觉未来。\n\n从工程师实验到银幕幻想，人类对“看见”的持续追问，也推动了视觉系统从物理空间向数字空间的跃迁。\n\n这场跃迁的引擎，正是交互技术的不断进步：\n\n从早期的实体按键和简单语音指令，\n\n到利用摄像头、传感器和手势识别实现无接触操作，\n\n再到装配毫米波雷达与搭载AI大模型进行多模态灵活交互。\n\n进入21世纪，这场视觉革命也从实验室走向了市场。\n\n2012年，谷歌发布Google Glass，通过微型显示屏将图像反射到用户单目视野中，还能支持简单的语音控制拍照、导航等功能。\n\n与此同时，国内市场也暗流涌动。\n\n2018年Rokid推出了国内首款量产的AR眼镜Rokid Glass。\n\n它不只是简单的让人在头上“长”摄像头，还要让人的眼前“长”出屏幕。\n\n当你在博物馆欣赏展品时，它可以像一位随身导游，通过语音助手详细介绍展品历史，还能呈现可交互的文字、图片、视频和3D全息场景。\n\nAI技术带来了前所未有的速率、精度与维度上的升级，也让眼镜背后的视觉革命从看见迭代到看懂。\n\n\n\n**Part3 感知革命：AI让眼镜“更懂”世界**\n\n当大模型的浪潮席卷全球，AI眼镜进一步成为了人机交互的全新界面。\n\n以Meta与雷朋联手推出Ray-Ban Meta为例，\n\n它的创新突破不在于眼镜本身，而在于其内部嵌入的AI“视觉芯片”，\n\n能实现语音控制、实时翻译、照片拍摄等功能，成为人们新的智能“视网膜”。\n\n这种数据流动于视网膜的全新交互路径，也被各大科技玩家迅速跟进。\n\n去年霸榜热搜与央视的Rokid Max Pro搭载了通义大模型，\n\n能分析图像内容、自动捕捉对话并显示字母，甚至还能做翻译，\n\n而它的轻量化机身仅有76克。\n\n到了今年，夸克的AI眼镜升级为双芯片架构作为底座的同时，\n\n还融合了阿里全生态，购买、支付、出行都能靠“看一眼”解决。\n\n在SuperRAW暗光算法、多帧降噪技术、动态防抖补偿的加持下，\n\n你只需看一眼想要的东西，就能一下子识别出物品。\n\n内置的通义大模型则继续将物品图像快速匹配淘宝商品库，迅速推荐商品链接。\n\n“看一眼支付”还能让人安全放心地解放双手。\n\nSLAM空间定位配合双摄像头实时构建环境，可以确保扫码视角精准性；\n\n声纹多因子核身降低了盗刷风险；\n\n再配合通义端侧AI模型，实时追踪用户视线焦点并触发支付指令，\n\n只要“看”向二维码，声纹验证后就能完成支付。\n\n高德AR导航路线可实时投射在镜片、飞猪行程的贴心提醒，也让出行变得更便捷。\n\n工作中，夸克AI眼镜就能实时记录会议内容并生成摘要。\n\n声场分离技术先把老板、同事、环境音拆分成三条音轨，\n\n调用通义的语音识别模型和增量式语义理解一边听一边为你划下重点，\n\n这下再也不怕开会走神、被老板点名提问答不上来了。\n\n随着技术发展，早期AI眼镜的一些瓶颈也得到了改善。\n\n在画质方面，雷鸟的X3 Pro可以把色彩还原度接近手机屏幕级别，降低色彩暗和“彩虹纹”问题。\n\n在续航方面，夸克AI眼镜则是给到了“量大管饱”的可换电的双电池系统，\n\n同时还提供了一个耳机盒大小换电仓，可通过热插拔主电池实现24小时续航，解决了大部分人的“续航焦虑症”。\n\n软硬一体迭代，只为一件事，\n\n让AI眼镜戴起来像睁眼一样自然，无缝融入我们生活的每时每刻。\n\n\n\n现在，也许我们可以回答对超级终端的追求和这场视觉文明的竞速意味着什么。\n\n这意味着世界都可以变成了你的移动屏幕，在短短几年时间里，将有数千万人的生活方式因此改变。\n\n在更长久的未来，它们也会成为我们理解世界的“第三只眼”。\n\n真正的变革正在于人类重新抬头的瞬间，我们借由这副AI之眼，重新学会“看见”。\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "千镜大战，离「超级终端」还有多远？"
         },
         {
           "title": "从垃圾到宝藏：燃烧中的AI进化",
           "bvid": "BV1UcYWz1Enn",
-          "url": "[https://www.bilibili.com/video/BV1UcYWz1Enn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1UcYWz1Enn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1UcYWz1Enn",
           "cover": "assets/covers/BV1UcYWz1Enn.jpg",
           "plays": 224000,
           "interactions": 10502,
@@ -104,7 +104,7 @@ window.SITE_DATA = {
         {
           "title": "AI Agent！超级助手来了！",
           "bvid": "BV1yueEzZEnp",
-          "url": "[https://www.bilibili.com/video/BV1yueEzZEnp/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1yueEzZEnp/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1yueEzZEnp",
           "cover": "assets/covers/BV1yueEzZEnp.jpg",
           "plays": 226000,
           "interactions": 6995,
@@ -113,7 +113,7 @@ window.SITE_DATA = {
         {
           "title": "让我看看，谁还没拥有自己的小手办？",
           "bvid": "BV13hamzJE9d",
-          "url": "[https://www.bilibili.com/video/BV13hamzJE9d/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV13hamzJE9d/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV13hamzJE9d",
           "cover": "assets/covers/BV13hamzJE9d.jpg",
           "plays": 240000,
           "interactions": 19180,
@@ -122,16 +122,18 @@ window.SITE_DATA = {
         {
           "title": "AI作业批改：读懂每次进步",
           "bvid": "BV13wYNzAE4m",
-          "url": "[https://www.bilibili.com/video/BV13wYNzAE4m/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV13wYNzAE4m/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV13wYNzAE4m",
           "cover": "assets/covers/BV13wYNzAE4m.jpg",
           "plays": 248000,
           "interactions": 20365,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AI批改作业】AI作业批改：读懂每次进步\n\n85.6秒，这是一名高中教师在过去批改一份数学试卷主观题的时间。\n\n而现在，这个时间足够批改完全班同学的试卷，甚至让每位同学知道自己的分数。\n\n让试卷批阅大大加速的神器，就是这支由算法和代码组成的\"AI红笔\"。\n\n老师只需要轻点屏幕，「上传」，作业便由AI 一键批阅。\n\n对学生而言，AI批改作业不仅能标注对错，还能精准定位知识盲区、解析思维路径，每道题都有错误分析和详细评语。作业题不再停留于二维纸面上，而是跃迁为知识网络的触发器。\n\n当我们重新打开作业本，会发现AI批改作业正在求解教育进化的「方程式」\n\n\n\n欢迎来到超级AI研究所，以AI的视角，解码现象背后的先进技术。\n\n\n\n这份AI错题本是小周同学提升成绩的重要法宝。今天，错题本显示他在\"硫及其化合物”的题目上再次出错\n\n而这个知识点也是他最近学习的薄弱环节。过去，他光是抄写整理这道错题就要花费半个小时。\n\n现在，这个时间已经够他看完错题解析、再做完几道同类型题目训练，并复习巩固完相关知识点。\n\n而像这样由AI帮助解决大量重复劳动的现象，也出现在老师批改作业和家长辅导作业上。\n\n\n\n校园里，AI正悄然重塑教师的批改日常。面对全班数十份作业，老师只需一支“AI红笔”，就能又准又快地完成作业批改。\n\n这支“AI红笔”有着超强的“视觉中枢”：利用卷积神经网络的OCR识别。\n\n简单来说，它可以精准识别图像上的手写字迹、符号，将试卷上的手写体实时“翻译”成机器可读的数据；\n\n与此同时，多线程并行处理同步发力，可以同时解析多份作业，相当于多位AI老师一起批改，快速完成单篇批注。\n\nAI批改作业不光 够准、够快，也在进化得更加全面。即使是不同学科的作业，也能靠它搞定。\n\n\n\n今年7月的世界人工智能大会上，阿里云携手七天网络，推出了“全科智批改系统”。\n\n近来，头部科技厂商与教育领域企业合作，也带来了许多全学科智能批改产品。\n\n依托通义大模型等AI能力，系统不仅能精准批改各类填空题，更能对理化生等综合解答题的关键步骤、解题逻辑与最终答案，进行细致评估。\n\n即使面对“千人千文”的语文作文，也能对标题立意、行文逻辑等进行多维度拆解，同步输出个性化评价与建议，做到“既打分数，又讲思路”。  \n 从语文作文、英语单词、到数学证明题、物理大题、甚至化学方程式，AI批改都能实现智能批阅。\n\n\n\n不止在学校，回到家，AI批改也正在重塑孩子自主学习的状态。\n\n家长不用再“绞尽脑汁”或“声嘶力竭”做指导。\n\n比如当孩子写完周记，家长只需要 用手机扫描 作文本，语义理解技术（NLP）驱动下的“AI老师” ，就可以从百万语料中遴选字句的进阶表达，并用红圈锁定错别字，红色高亮圈住并提出改进建议，绿色高亮点赞作文里的创意点并进行点评。\n\n孩子能马上收获反馈，家长也不必再挑错别字、语法等细节，而是可以成为孩子在文章主题、立意等方面的“共创者”。\n\nAI批改带来更明显的家庭学习进步是，家长不需要花费大量时间学习各科知识，也能发现孩子的薄弱环节。\n\n\n\n精准学科技就运用知识图谱，构建出“知识点-题目-教材章节”的知识网络，依据上传的作业情况，动态追踪孩子对知识点的掌握状态。\n\n比如两个小朋友做同样的题目、得到相近的分数，AI也能通过错题，检测出两人的薄弱环节是不一样的，让家长和孩子能及时查漏补缺，通过标定孩子的“最近发展区”，推荐更加高效的专属学习路径。\n\n到这里，我们会发现，AI批改输出的远不止对错的判定，更在于 为每个学生  生成 个性化学习导航图，让老师、学生、家长三方共享同一个学习坐标。\n\n\n\nAI应用在教育的核心意义，是让教育回归本质。\n\n教育，是一棵树摇动另一棵树，一朵云推动另一朵云，一个灵魂唤醒另一个灵魂。这份灵魂间的共振，需要教育者倾注全部热忱。\n\nAI与算法，不是为了替代老师手中的那支红笔，而是接过老师手中那些机械、重复的劳动，让教育的温度，更能穿透纸面，抵达灵魂。\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "AI作业批改：读懂每次进步"
         },
         {
           "title": "AI押宝爆款，寻找下一个引爆世界的信号",
           "bvid": "BV1Hhp3z3EMJ",
-          "url": "[https://www.bilibili.com/video/BV1Hhp3z3EMJ/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1Hhp3z3EMJ/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1Hhp3z3EMJ",
           "cover": "assets/covers/BV1Hhp3z3EMJ.jpg",
           "plays": 250000,
           "interactions": 7765,
@@ -140,7 +142,7 @@ window.SITE_DATA = {
         {
           "title": "国庆小长假在向你招手啦！谁还没用上AI做攻略？",
           "bvid": "BV1Ujp1zUEXx",
-          "url": "[https://www.bilibili.com/video/BV1Ujp1zUEXx/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1Ujp1zUEXx/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1Ujp1zUEXx",
           "cover": "assets/covers/BV1Ujp1zUEXx.jpg",
           "plays": 87000,
           "interactions": 5729,
@@ -149,7 +151,7 @@ window.SITE_DATA = {
         {
           "title": "中秋选礼物有救啦！",
           "bvid": "BV11QJrztE93",
-          "url": "[https://www.bilibili.com/video/BV11QJrztE93/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV11QJrztE93/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV11QJrztE93",
           "cover": "assets/covers/BV11QJrztE93.jpg",
           "plays": 288000,
           "interactions": 15346,
@@ -158,7 +160,7 @@ window.SITE_DATA = {
         {
           "title": "超级AI云：被重塑的计算文明",
           "bvid": "BV1iMJQzqEAe",
-          "url": "[https://www.bilibili.com/video/BV1iMJQzqEAe/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1iMJQzqEAe/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1iMJQzqEAe",
           "cover": "assets/covers/BV1iMJQzqEAe.jpg",
           "plays": 714000,
           "interactions": 40049,
@@ -167,16 +169,18 @@ window.SITE_DATA = {
         {
           "title": "智能座舱，把世界“装”进车里",
           "bvid": "BV1JtJCzQEJz",
-          "url": "[https://www.bilibili.com/video/BV1JtJCzQEJz/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1JtJCzQEJz/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1JtJCzQEJz",
           "cover": "assets/covers/BV1JtJCzQEJz.jpg",
           "plays": 255000,
           "interactions": 11758,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【智能座舱】智能座舱，把世界“装”进车里\n\n这些，不再是对未来的想象，而是已经被智能座舱实现的功能\n\n在中国，新能源汽车保有量超过3600万辆，新车的智能座舱渗透率攀升至73%\n\n现在的汽车，已经不只是个冷冰冰的交通工具，它正在变成一个更了解我们需求的智能伙伴\n\n\n\n欢迎来到超级AI研究所，以Al的视角，解码现象背后的先进技术。\n\n本期一起来看看智能座舱这些神奇功能的背后，有着怎样的技术支撑?\n\n\n\n还记得以前汽车座舱长什么样吗?\n\n提供少量基本数据信息的机械仪表盘、简单的音频播放设备、几乎全是物理按键的中控台\n\n按一下“开”，再按一下“关”,只能机械完成任务\n\n2012年，特斯拉Model S发布，搭载的17英寸超大中控屏\n\n改变了用户与车辆的交互方式，成为智能座舱发展的重要启蒙者\n\n之后，各大传统车企和新势力纷纷跟进\n\n第一代智能座舱搭载了语音识别 (ASR)、 语音合成 (TTS)、 自然语言处理 ( NLP)  等技术\n\n迅速变得流行起来，减少了传统的物理按键操作，让人车交互更方便、更自然\n\n\n\n不过，第一代智能座舱还是差点儿意思\n\n比如 ，屏幕触控，有时候会增加开车的风险\n\n语音交互，有时候也会因为识别不准，把“打开车窗”听成“打开天窗”\n\nAPP只能以封装形式进入车辆，智能车载的应用，少得可怜\n\n而现在的第二代智能座舱， Al和大模型“上车”成为热潮\n\n有了各种Al智能体和大模型的帮助，车内的交互方式产生了很大的改变\n\n智能座舱变得更“懂你”和“主动”\n\n正在快速演变成我们的“第三生活空间”\n\n\n\n智能座舱的背后，是多种Al技术的融合与协作\n\n从坐进车内的那一刻起，汽车就不仅在“看路”，也在时刻看着你\n\n多模态模型的应用，只需要一句话，就能让智能座舱理解你的需求\n\n智能座舱也学会了\"察言观色\"\n\n通过捕捉你的表情与动作，系统能识别疲劳状态并及时提醒\n\n3D数字人技术和多模态感知技术，让车载助手不再是冷冰冰的语音\n\n更能用丰富表情和动作提供情绪价值\n\n它还会通过眼神和动作，跟你确认指令，强化人与车之间的情感链接\n\n\n\n大模型，也让智能座舱变得\"聪明\"起来\n\n它会记住你的习惯，自动调整座椅、后视镜和空调，让你每次上车都能找到最舒适的感觉\n\n它提升了语音识别准确率，在嘈杂的环境中准确捕捉你的每一句话\n\n它还能记住上下文，实现多轮对话\n\n当提问\"附近有什么好玩的\"，再追问\"哪个评分高\"\n\n它能准确理解意思并直接推荐最佳去处\n\n真正实现了\"看懂人，听懂话\"的交互体验\n\n\n\n智能座舱不再只是简单语音控制，它也学会了“预判需求”\n\n利用通义大模型打造的\"智能座舱AI大脑\"\n\n将部分AI能力部署在车端，在本地就能处理语音指令\n\n即使在信号不佳的隧道中，也能流畅响应\n\n同时将复杂计算放在云端，实现其他更强大的Al能力\n\n前段时间，通义、斑马、高通联合发布的端侧多模态大模型解决方案\n\n甚至在车里，就能完成90%的任务执行\n\n斑马智行以System  Agent作为交互主入口，通过日常对话即可调用不同Agent\n\n打通办公、搜索、生活服务等应用，在不同场景中提供贴心服务\n\n以“AI外卖”为例，用户在行车途中说出“我想吃附近的川菜”\n\nSystem  Agent即可语音识别分析需求\n\n由本地生活Agent调用“饿了么”数据 筛选餐厅， 自动完成无感支付\n\n并根据车辆行程规划送餐时间，最终“人到、车到、餐到”\n\n这背后，是通过多模态融合感知、多意图理解\n\n自主规划、调度、执行任务，为用户提供主动式服务，真正实现：“No Touch、No App”\n\n智能座舱的发展，正在逐渐打破“车”与“生活”之间的边界\n\n大模型也在重构车内服务生态，它能够将不同APP的功能单独拆解\n\n再根据实际应用场景灵活组装\n\n在未来，或许还能无缝连接其他智能设备\n\n在车上就能控制家里的智能家居\n\n这种生态融合的能力，也让汽车逐渐成为\"第三生活空间\"\n\n\n\n智能座舱，正在从代步工具\n\n蜕变为 一个能感知、会思考、有温度的“移动生命体”\n\n每一次出发，都让我们充满期待\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "智能座舱，把世界“装”进车里"
         },
         {
           "title": "你听，这个世界在喊你",
           "bvid": "BV1Qvnoz7Ebh",
-          "url": "[https://www.bilibili.com/video/BV1Qvnoz7Ebh/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1Qvnoz7Ebh/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1Qvnoz7Ebh",
           "cover": "assets/covers/BV1Qvnoz7Ebh.jpg",
           "plays": 818000,
           "interactions": 66168,
@@ -185,7 +189,7 @@ window.SITE_DATA = {
         {
           "title": "AI棋友？越下越有！",
           "bvid": "BV1kMxkzMEqG",
-          "url": "[https://www.bilibili.com/video/BV1kMxkzMEqG/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1kMxkzMEqG/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1kMxkzMEqG",
           "cover": "assets/covers/BV1kMxkzMEqG.jpg",
           "plays": 44000,
           "interactions": 4549,
@@ -194,16 +198,18 @@ window.SITE_DATA = {
         {
           "title": "AI调度，守护14亿万家灯火",
           "bvid": "BV11H4LzqEmy",
-          "url": "[https://www.bilibili.com/video/BV11H4LzqEmy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV11H4LzqEmy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV11H4LzqEmy",
           "cover": "assets/covers/BV11H4LzqEmy.jpg",
           "plays": 672000,
           "interactions": 30022,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AI电力调度】AI调度，守护14亿万家灯火\n\n**Parti：5秒，被按下的光明暂停键**\n\n2025年4月，伊比利亚半岛的午夜。\n\n5秒——一次呼吸的间隙，西班牙全国60%的电力瞬间消失，马德里286台地铁电梯悬停半空，3000多名旅客滞留瓦伦西机场，西班牙、葡萄牙、法国西南部数百万人陷入到黑暗中……\n\n这场被欧盟称为\"十年来最严重的电力事故\"，暴露出现代文明的脆弱一面：当电力调度系统失守，人类用百年构建的光明世界，竟可能瞬息崩塌。\n\n\n\n欢迎来到超级AI研究所，以AI的视角，解码现象背后的先进技术。\n\n本期让我们一起走进电力世界，了解AI电力调度所扮演的指挥官角色。\n\n\n\n**Part2：电力长城：270亿度电的千里奔袭**\n\n电力，是流动在现代文明血管中的血液。而调度系统，则是掌控全身血脉搏动的“超级心脏\"。\n\n在中国，这场能源迁徙尤为壮阔——\"发电的心脏\"在西部高原与荒漠强劲跳动，而“用电的需求”则在东部城市群蓬勃增长。\n\n为平衡这场跨越上千公里的能量潮汐，中国土地上编织出了全球最大的特高压电网：已投运的42项特高压交直流工程（特高压交流，电压等级1000kV，22条；特高压直流，电压等级±800kV，20条），单条跨越6省、绵延上千公里，形成了纵横中国的“电力长城\"。\n\n每天，中国会产生约270亿度电力需求——相当于32座世界最大水电站\"雅江水电站\"全力拉满一日的发电总量，奔涌在密如蛛网的庞大电网上，点亮14亿民众的生活。\n\n任何细微的调度偏差，都可能引发危险的连锁反应。\n\n\n\n**Part3：零容错时代的调度炼狱**\n\n目前，风电与光伏贡献了全国超63%的绿电，但一场暴风雨就会导致发电功率剧烈波动，足以让千万屋顶光伏集体“失语\"。\n\n极端天气不仅影响发电，也会带来用电量的激增：受高温天气影响，今年7月16日，全国电网负荷历史性突破15亿千瓦——相当于能点亮150亿盏100瓦灯泡的电量。\n\n随着全国超千万辆新能源汽车化身\"充电巨兽\"，随机充电需求也猛猛砸向电网的脆弱节点。\n\n这些都让电网的平稳运行面临更大压力，而调度的容错率必须是零。\n\n这份稳定的背后，是电网工作者们的坚守付出。\n\n过去，电网调度中心里，一天5班、每班5人的调度员小组，24小时不间断轮守。每个决策窗口以秒计时，汗水浸透的工服下，是人类大脑与复杂电网的极限对抗。\n\n\n\n**Part4：Al觉醒：电网的\"数字神经”**\n\n直到AI推开调度室的大门\n\n首先解决的，是预测的问题：\n\n占全国光伏装机约44%的分布式光伏，让千家万户的屋顶都变成了\"微型发电厂”，但也因为受天气影响大、分布不集中，让电网难以精确预测和管理。\n\n而且它直接接入低压配电网，可能会导致局部电网的过载，对电网的稳定也带来了很大冲击。\n\n时序大模型化身\"天气解读者\"，对分布式光伏开展高精度预测，能更精准地掌握总输出功率，面对极端天气，能将发电预测精度从96.98%跃升至99.62%以上。\n\n技术的发展也正在培养着“永不疲倦的AI调度员\"：\n\n阿里云与某电网共同搭建了云化DSP电网仿真系统+强化学习算法+集群化封装的训练平台，为\"AI在线调度员\"实现训练和优化，帮助电力调度逐渐由\"经验\"向\"智能\"进化。\n\n\n\n大语言模型，让AI从计算工具进一步升级为人类决策者的\"全能参谋\"：\n\n尤其在面临突发恶劣天气或故障时，能让调度员更加从容应对。\n\n去年9月，当雷雨夜突袭某地，大模型启动思维树推演：快速生成多套供电恢复方案，结合实时风速动态调整优先级，让调度员能够更加游刃有余地应对各种突发状况。\n\n除此之外，面对日趋庞大复杂的电网结构，运用大模型与检索增强生成技术（RAG），融合千份调度规程与百亿条历史数据，构建电网调度\"决策图谱\"，调度日报编制时间从3小时缩短至3分钟，释放的人力正转向更富创造性的安全防线构建。\n\n\n\n**Part5：灯火阑珊处的算法星辰**\n\n当特高压铁塔在暮色中划出银色弧线，当城市霓虹再次点亮夜晚——那是万千智能算法在毫秒级决策中，将电力系统的复杂性，谱写成平凡夜晚的稳定频率。\n\n这场电力的智能进化，让绵延千里的电力长城生长出\"AI神经\"。它安静地守护着每扇窗后的灯火，也会照亮更远的未来，成为人类智慧最明亮的注脚。\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "AI调度，守护14亿万家灯火"
         },
         {
           "title": "AI护工，能否托起3亿人的晚年？",
           "bvid": "BV1LrsGzgEyy",
-          "url": "[https://www.bilibili.com/video/BV1LrsGzgEyy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1LrsGzgEyy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1LrsGzgEyy",
           "cover": "assets/covers/BV1LrsGzgEyy.jpg",
           "plays": 470000,
           "interactions": 4337,
@@ -212,16 +218,18 @@ window.SITE_DATA = {
         {
           "title": "能哄人会操作，重新定义“客服”这件事",
           "bvid": "BV1LLsazfEKK",
-          "url": "[https://www.bilibili.com/video/BV1LLsazfEKK/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1LLsazfEKK/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1LLsazfEKK",
           "cover": "assets/covers/BV1LLsazfEKK.jpg",
           "plays": 102000,
           "interactions": 6739,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【智能客服Agent】能哄人会操作，重新定义“客服”这件事\n\n你是否也接到过这样的客服电话?\n\n声音清澈，情感丰富，回复迅速\n\n但有没有意识到这些和你聊天的“客服”\n\n其实根本不是真人呢\n\n\n\n欢迎来到超级Al研究所，以AI的视角，解码现象背后的先进技术\n\n本期我们一起来看看，这些以假乱真“客服”背后的技术——智能客服Agent\n\n\n\n藏在智能客服Agent热情面具下的，不只是一台冷冰冰的“回复机器”\n\n依托通义等大模型的情感理解能力\n\n智能客服Agent不仅能听懂用户说什么，还能感知“说话时的情绪”\n\n当检测到用户语句中出现焦虑、不满或愤怒等情绪信号\n\nAl会立即识别情绪波动，并主动切换为安抚型话术\n\n通过情绪自适应响应，避免服务矛盾升级，让沟通也更有温度\n\n\n\n在多模态大模型的驱动下，智能客服Agent 具备了类人的感知与理解能力\n\n无论是你输入的文字、发出的语音，它都能快速识别并综合分析\n\n多轮意图理解技术，让AI能精准把握用户连续提问中的上下文关联\n\n例如，在预订酒店时，当你确认好入住日期和酒店位置后，插入追问：“明天天气怎么样”\n\n智能客服在快速答复天气情况后，无需你再次确认，便能自动回到预订流程，基于前文理解，接着询问你对房型的偏好\n\n从而自然衔接服务流程，像真人客服一样连贯响应，告别答非所问的困扰\n\n\n\n对于小程序店铺等独立站运营者来说，智能客服Agent的能力，远不止“对话”\n\n想象一下，传统人工客服面对店内数百个SKU和随时都在变化的各种商品和活动信息\n\n还要在订单、物流、产品等多个系统间反复横跳，这是多么庞大而复杂的工作量\n\n而智能客服Agent 都能轻松搞定。\n\n例如，处理一次退货，传统流程可能涉及多个复杂操作流程：查订单、翻SKU文档、找物流拦截……\n\n而基于通义晓蜜构建的智能客服Agent,  能一键串联多个系统API\n\n仅在”物流催发“这一个场景，就将过去需要客服参与的数十个环节的处理流程快速完成\n\n智能客服Agent 能自动化解决大量重复性问题，将人工客服解放出来，转型成为处理其他复杂问题的“Agent 主管”，实现更高效的人机协同\n\n\n\n不仅如此，智能客服Agent也正在逐渐从“服务”领域扩展到“销售”领域\n\n比如，在十分依赖电话沟通的汽车销售行业，智能客服正在悄悄改变游戏规则\n\n过去汽车电销人员每天要花费大量的时间，和用户打电话沟通\n\n但大部分时间都花在了信息筛选上，真正有用的商业线索很少\n\n而现在 ，有了瓴羊等头部厂商推出的智能客服Agent,  就像配备了一位不知疲倦的销售助理\n\n通过线索清洗与意图识别技术，过滤掉那些“随便问问”的无效信息\n\n把最有可能成交的“高价值客户”推给销售员，让销售员把时间和精力用在真正有意向的客户身上\n\n智能客服Agent甚至还会“主动出击”\n\n基于大模型的AI外呼系统，能根据潜在目标用户的信息，生成个性化销售话术\n\n主动呼叫和邀约，用户试驾完后， 还会自动生成试驾报告，帮助销售员制定下一步计划\n\n这套“又快又准”的组合拳，大大提升了整个销售流程的效率\n\n\n\n智能客服Agent,  并不是简单的人力替代，更是一场服务效率与体验的革命\n\n通过机器，智能高效处理海量信息，将精准可靠的服务体验带给每一位用户\n\n这背后映射的，是人类对更高效率和更优服务的永恒追求\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "能哄人会操作，重新定义“客服”这件事"
         },
         {
           "title": "2025年度卷王——AI Coding",
           "bvid": "BV1HYs5zWEhV",
-          "url": "[https://www.bilibili.com/video/BV1HYs5zWEhV/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1HYs5zWEhV/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1HYs5zWEhV",
           "cover": "assets/covers/BV1HYs5zWEhV.jpg",
           "plays": 102000,
           "interactions": 6739,
@@ -230,16 +238,18 @@ window.SITE_DATA = {
         {
           "title": "AI制片厂：短视频的下一站",
           "bvid": "BV16gyqBjEPo",
-          "url": "[https://www.bilibili.com/video/BV16gyqBjEPo/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV16gyqBjEPo/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV16gyqBjEPo",
           "cover": "assets/covers/BV16gyqBjEPo.jpg",
           "plays": 813000,
           "interactions": 34532,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AIGC视频】AI制片厂：短视频的下一站\n\n**引入**\n\n云冈石窟的大佛，打卡云冈石窟\n\n穿越回4000年前，亲临大禹治水现场\n\n神仙的雕像，顺着梯子往天上爬\n\n看到这些Al视频\n\n网友不语，只是一味点赞、评论、转发\n\n亲手把它们推成互联网爆款\n\n欢迎来到超级Al 研究所\n\n以AI的视角，解码现象背后的先进技术\n\n\n\n本期视频，我们将一起深入脑洞大开的Al视频\n\n看看在全民创作时代，Al如何打造10w+爆款?\n\n\n\n**Part1  技术重塑角色**\n\n我们先来回顾两场完成时的视频创作演进，以及技术如何重塑你的角色\n\n时间拉回到20多年前\n\n虽然当时诞生了众多经典作品，但内容创作权牢牢掌握在专业机构手中\n\n大多数人只能被动接收，做屏幕前的观众\n\n2005年，YouTube上线，喊出\"Broadcast Yourself\"\n\n同年，土豆网上线，提出“每个人都是生活的导演”\n\n互联网与内容平台，推开全民创作时代的大门\n\n海量、多元、来自普通人的创作内容，爆炸式增长\n\n人人都能成为视频玩家\n\n\n\n不过，爆款视频有个「不可能三角」\n\n创意要新、更新要快、质量要高\n\n个人创作者很难兼顾\n\n而AI提供了破解之道\n\n2023年， Runway  发布 文字生成视频模型 Gen-2\n\n在当时，让不少人感到惊艳\n\n2024年起，全球科技企业开启“神仙打架”模式\n\n文本生成视频、图像生成视频、视频生成视频、音频生成视频，技术快速成熟\n\n抽象、有趣、高质量的AI视频，不断爆火出圈\n\n\n\n**Part2 解码AI创造力**\n\n那么,AI是如何驾驭视频创作的呢?\n\n答案在于两项核心能力：视觉常识+想象力\n\n以及支撑这一切的技术基石——扩散模型\n\n视觉常识是AI理解世界的字典\n\n它让AI知道，猫有四条腿、吉他有长长的琴颈\n\n想象力，则是AI组合元素的创造力\n\n让它能根据指令，把猫爪放在正确的位置，摆出弹吉他的姿态\n\n扩散模型的灵感来自于热力学中的扩散过程\n\n想象把墨水滴在清水中\n\n它会自发从一团墨扩散成  一杯淡墨水\n\n\n\nAI的强大之处，在于它学会了反向操作\n\n能根据引导，一步步“倒放”出全新，且清晰的图像\n\n这杯淡墨水就是Al的画布，也就是噪声场\n\n而引导它的那只“隐形的手”就是编码\n\n以文本生成视频为例\n\n当我们输入指令“一只弹吉他的猫”\n\n文本编码器，会将其转化为编码\n\n扩散模型会从一个完全随机的噪声场开始\n\n在视觉常识与编码的引导下\n\n消除最不像猫的噪声，生成模糊的猫形色块\n\n接下来编码又指导它“猫在弹吉他”\n\n扩散模型发动想象力\n\n继续在猫形色块的基础上，移除那些不像吉他形状的噪声，同时强化猫的形态\n\n消除噪声-强化特征-细化细节，这个过程不断循环往复\n\n直到形成清晰的图像\n\n\n\n当所有帧生成完成后，视频解码器会合成最终成片\n\n这种创作逻辑，灵活性极高且耗时更短\n\n能让创意快速落地\n\n\n\n**Part3   电影级新玩法**\n\n今年4月，通义万相Wan2.1 视频模型的首尾帧生成\n\n带给不少人小小的AI震撼\n\n只需首帧和尾帧两个静态关键帧\n\n模型就能自动生成丝滑流畅的视频\n\n随后迭代的Wan2.2与最新的2.5 Preview版本\n\n不仅在视频画质、生成速度与可控性上，全面跃升\n\n还推出电影级新玩法\n\nWan2.2模型将专业美学属性，转化为可控参数和美学提示词\n\n进一步驾驭不同风格、不同气氛的表达\n\n新的模型架构，将视频生成过程，分为：高噪声和低噪声两个阶段\n\n高噪声专家，搭建视频的“骨架”\n\n低噪声专家，精修“血肉”\n\n兼顾视频生成的质量与效率，解决了时空一致性难题\n\n即使面对大幅度运动的高级运镜\n\n也能保证画面的真实感\n\n训练数据中还引入更多物理规律\n\n并构建精细的面部原子动作和情绪表情系统\n\n微妙的面部表情、自然的手部动作、多人之间的自然交互、复杂的整体运动\n\nAl都能精准掌控\n\n输出的视频在质感上更逼近大片\n\n\n\n最新推出的Wan2.5  Preview模型\n\n在音频生成视频方面，实现了显著的能力跃迁\n\n这得益于原生多模态架构\n\n能将文本、图像和音频放在一起联合训练\n\n输入一段音乐或旁白， Al可自动生成与之情绪、节奏匹配的动态画面\n\n直接输出声情并茂的视频\n\n有了Al的共创，个人创作者能把更多精力留给故事与创意\n\n真正成为自己视频的导演\n\n\n\n**结尾**\n\nAl并非要取代人类创作者，而是作为强大的生产伙伴和创意伙伴\n\n提升内容创作的效率，拓宽想象力的边界\n\n这正是技术的真正目标，人人都能拥抱创作",
+          "scriptTitle": "AI制片厂：短视频的下一站"
         },
         {
           "title": "🏀为什么看NBA很“过瘾”？",
           "bvid": "BV1Ux49zEE2E",
-          "url": "[https://www.bilibili.com/video/BV1Ux49zEE2E/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1Ux49zEE2E/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1Ux49zEE2E",
           "cover": "assets/covers/BV1Ux49zEE2E.jpg",
           "plays": 589000,
           "interactions": 13160,
@@ -248,7 +258,7 @@ window.SITE_DATA = {
         {
           "title": "智能点单来了？AI点的炸鸡，香！",
           "bvid": "BV1TM1KB3EVB",
-          "url": "[https://www.bilibili.com/video/BV1TM1KB3EVB/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1TM1KB3EVB/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1TM1KB3EVB",
           "cover": "assets/covers/BV1TM1KB3EVB.jpg",
           "plays": 62000,
           "interactions": 3517,
@@ -257,7 +267,7 @@ window.SITE_DATA = {
         {
           "title": "AI主播，正在被奢牌争夺",
           "bvid": "BV1Ex2cB7ENd",
-          "url": "[https://www.bilibili.com/video/BV1Ex2cB7ENd/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1Ex2cB7ENd/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1Ex2cB7ENd",
           "cover": "assets/covers/BV1Ex2cB7ENd.jpg",
           "plays": 184000,
           "interactions": 5917,
@@ -266,7 +276,7 @@ window.SITE_DATA = {
         {
           "title": "AI伴侣！糟糕，是心动的信号",
           "bvid": "BV1AmkiBLEzK",
-          "url": "[https://www.bilibili.com/video/BV1AmkiBLEzK/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1AmkiBLEzK/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1AmkiBLEzK",
           "cover": "assets/covers/BV1AmkiBLEzK.jpg",
           "plays": 241000,
           "interactions": 5118,
@@ -275,7 +285,7 @@ window.SITE_DATA = {
         {
           "title": "嗨 交个朋友吧",
           "bvid": "BV1gsU5BVEAA",
-          "url": "[https://www.bilibili.com/video/BV1gsU5BVEAA/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1gsU5BVEAA/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1gsU5BVEAA",
           "cover": "assets/covers/BV1gsU5BVEAA.jpg",
           "plays": 1427000,
           "interactions": 42866,
@@ -284,7 +294,7 @@ window.SITE_DATA = {
         {
           "title": "东数西算的“西游记”",
           "bvid": "BV1NoUSBMEWk",
-          "url": "[https://www.bilibili.com/video/BV1NoUSBMEWk/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1NoUSBMEWk/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1NoUSBMEWk",
           "cover": "assets/covers/BV1NoUSBMEWk.jpg",
           "plays": 980000,
           "interactions": 24877,
@@ -293,16 +303,18 @@ window.SITE_DATA = {
         {
           "title": "用AI！写出每日头条",
           "bvid": "BV1naS5BaEpS",
-          "url": "[https://www.bilibili.com/video/BV1naS5BaEpS/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1naS5BaEpS/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1naS5BaEpS",
           "cover": "assets/covers/BV1naS5BaEpS.jpg",
           "plays": 666000,
           "interactions": 6544,
-          "isMain": true
+          "isMain": true,
+          "script": "",
+          "scriptTitle": "用AI！写出每日头条"
         },
         {
           "title": "看不见画面也能玩的AI游戏，上号！",
           "bvid": "BV1E4SYBmEmh",
-          "url": "[https://www.bilibili.com/video/BV1E4SYBmEmh/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1E4SYBmEmh/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1E4SYBmEmh",
           "cover": "assets/covers/BV1E4SYBmEmh.jpg",
           "plays": 995000,
           "interactions": 11174,
@@ -311,16 +323,18 @@ window.SITE_DATA = {
         {
           "title": "“箱”当重要：Agent的“隐形守护者”",
           "bvid": "BV1cj2kBvETn",
-          "url": "[https://www.bilibili.com/video/BV1cj2kBvETn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1cj2kBvETn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1cj2kBvETn",
           "cover": "assets/covers/BV1cj2kBvETn.jpg",
           "plays": 557000,
           "interactions": 6481,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【无影AgentBay】“箱”当重要：Agent的“隐形守护者”\n\n从智能家居到智慧出行，从高效办公到便捷生活\n\nAgent 正在逐渐深度融入我们的日常生活，带来实实在在的便利\n\nAgent正在从单个处理简单任务的\"助手\"\n\n逐渐成为帮助我们应对复杂情况的\"专业团队\",\n\n但你是否想过：它们是如何安全有序地协作，确保所有操作都可靠可控?\n\n\n\n欢迎来到超级AI研究所，以AI的视角，解码现象背后的先进技术\n\n本期视频，我们一起看看支撑Agent稳定高效运行的“万能工作间“——沙箱\n\n\n\n首先，什么是\"沙箱\"?\n\n沙箱是一种安全机制，能为运行中的程序提供一个隔离的、受控的执行环境\n\n就像一个\"安全围栏\"，程序在里面可以自由活动，但不会对宿主系统或其他程序造成实质影响\n\n实现这种隔离有几种不同的技术路径：\n\n轻量级虚拟机提供强隔离，适合运行不可信代码\n\n容器技术则启动更快，适合高密度部署\n\n用户模式内核在安全与性能间取得平衡\n\nWebAssembly以极快的启动速度和细粒度隔离，在客户端和边缘计算中表现出色\n\n这些技术路线各有侧重，实际应用中，通常会根据需求，灵活搭配这些技术\n\n\n\n那么,为什么Agent需要沙箱呢?\n\nAgent对运行环境有着近乎苛刻的要求，而安全隔离正是沙箱最核心、最基础的功能\n\nAgent的核心能力之一是执行代码或调用外部工具\n\n但这其中蕴含着危险的不可预测性，比如代码中没有被发现的错误，或者收到恶意指令\n\n如果直接在核心服务器上运行，处理敏感数据时出错，后果会很严重，甚至导致数据泄露或系统崩溃\n\n阿里云无影AgentBay,   在云端通过虚拟化技术与容器技术，构建沙箱环境\n\n在这里，即使Agent出现意外，也不会危及宿主系统和核心数据\n\n真正实现\"本地环境零侵入\"，用户无需担心自己的设备被干扰\n\n\n\n一个出色的Agent，往往是一个\"多面手\"\n\n双十一购物时，当你让Agent帮你比价，它需要在不同电商平台间跳转抓取信息，再执行比价脚本，甚至还要调用云手机环境，验证移动端的优惠券\n\n这就需要沙箱能提供一个多样化、高度仿真运行环境的“全能操 作台\"\n\n无影AgentBay提供覆盖了多种核心运行环境的智能沙箱\n\n让Agent在复杂的任务流程中，在不同的\"专业工 作室“之间无缝切换\n\n而一系列开箱即用的预装工具。让开发者可以直接”拎包入住\"\n\n不必从零开始构建复 杂的集成环境，大大提升Agent的开发效率\n\n\n\n当Agent面对海量的任务时，强大的资源调度能力至关重要\n\n比如双十一期间，对算力的需求是爆发式的\n\n电商平台依赖的线上沙箱平台需要具备高并发处理能力，以应对瞬间涌入的海量请求\n\n依托云计算强大的底层算力，不仅支持弹性伸缩，还拥有动态资源调整，和大规模并发能力，在业务高峰时，快速调动算力资源，在流量回落后，自动释放多余的资源，既保证了效率，又节约了成本\n\n更重要的是，许多Agent的任务需要长时间运行，甚至是7×24小时\n\n沙箱提供的稳定运行环境和持久化的存储能力，使得Agent 能够成为永不停歇的\"数字员工\"\n\n沙箱也让Agent的运行能像游戏一样“自动存档” ——不用担心断网或者系统更新，一恢复就能接着干，不用重头再来\n\n无影AgentBay采用的统一持久化存储架构，支持状态和内存级别的持久化，确保Agent任务切换时能直接无缝衔接，保障复杂长周期任务的稳定执行\n\n\n\n此外，前沿平台已经在思考如何让Agent“ 自我进化”了\n\n无影AgentBay的Self-Evolving引擎，就像一个“私 人教练”\n\n让Agent不再只是机械的执行命令，还能通过分析失败案例，自动优化工作方法\n\n无论是单个Agent的内部流程，还是多个Agent的协作网络，都能调整到更高效的工作流\n\n配合智能记忆管理，还能学会“过目不忘”和“选择性遗忘”,从容应对复杂的长周期任务\n\n让Agent真正实现了自我进化，越用越“聪明”\n\n\n\n从划定安全边界，到提供全能工具，再到赋予进化潜力\n\n沙箱已经从一个简单的保护罩，进化成了支撑 Agent生态的基石\n\nAgent的潜力被安全、完整地释放，成为我们探索数字世界时，最值得信赖的伙伴\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "“箱”当重要：Agent的“隐形守护者”"
         },
         {
           "title": "AI也是看上流星雨了🌠",
           "bvid": "BV1d8mEBhEXg",
-          "url": "[https://www.bilibili.com/video/BV1d8mEBhEXg/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1d8mEBhEXg/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1d8mEBhEXg",
           "cover": "assets/covers/BV1d8mEBhEXg.jpg",
           "plays": 323000,
           "interactions": 6033,
@@ -329,7 +343,7 @@ window.SITE_DATA = {
         {
           "title": "AI生成的视频不会说话？「音画同步」技术来了！",
           "bvid": "BV1c8m1B7Ehh",
-          "url": "[https://www.bilibili.com/video/BV1c8m1B7Ehh/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1c8m1B7Ehh/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1c8m1B7Ehh",
           "cover": "assets/covers/BV1c8m1B7Ehh.jpg",
           "plays": 89000,
           "interactions": 8246,
@@ -338,34 +352,40 @@ window.SITE_DATA = {
         {
           "title": "大模型不止能聊天，还能动手了?",
           "bvid": "BV1iDq9BBEvn",
-          "url": "[https://www.bilibili.com/video/BV1iDq9BBEvn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1iDq9BBEvn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1iDq9BBEvn",
           "cover": "assets/covers/BV1iDq9BBEvn.jpg",
           "plays": 597000,
           "interactions": 6198,
-          "isMain": true
+          "isMain": true,
+          "script": "",
+          "scriptTitle": "大模型不止能聊天，还能动手了?"
         },
         {
           "title": "桌面机器人：你的下一个“电子宠物”！",
           "bvid": "BV1XFBKBcE3W",
-          "url": "[https://www.bilibili.com/video/BV1XFBKBcE3W/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1XFBKBcE3W/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1XFBKBcE3W",
           "cover": "assets/covers/BV1XFBKBcE3W.jpg",
           "plays": 187000,
           "interactions": 5562,
-          "isMain": true
+          "isMain": true,
+          "script": "",
+          "scriptTitle": "桌面机器人：你的下一个“电子宠物”！"
         },
         {
           "title": "“废片”拯救计划",
           "bvid": "BV1m8BDBEEBk",
-          "url": "[https://www.bilibili.com/video/BV1m8BDBEEBk/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1m8BDBEEBk/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1m8BDBEEBk",
           "cover": "assets/covers/BV1m8BDBEEBk.jpg",
           "plays": 547000,
           "interactions": 12995,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AI修图】废片拯救计划\n\n平安夜、圣诞节、跨年夜\n\n2025年最后一周\n\n是时候让AI帮你把朋友圈照片提升一个level了！\n\n不但能提高照片清晰度、做些基础的修图\n\n还可以直接变身成专业的摄影师＋美术指导＋特效师\n\n\n\n嗨，我是景妍\n\n今天我们来看看AI如何拯救废片吧！\n\n\n\n照片很好看，但往往总感觉差点灵魂\n\nAI，就能修出电影海报风，氛围感、故事性  全都拉满\n\n拍照姿势太少，拍来拍去都一个味\n\n那就用AI，加点艺术家风格，秒变审美尖子生\n\n想做网络梗图的话\n\nAI也能和你一起来整活\n\n\n\n所以，AI是怎么一步步成为修图大师的呢？\n\n在回答这个之前，我们先来测试一下AI的修图水平\n\n先来试试最常用、也最实用的一招：去除路人\n\n先上传一张背景全是路人的照片\n\n然后直接告诉AI：“帮我把路人去掉”\n\n几秒钟后，可以看到AI不仅把路人擦掉了\n\n还能理解照片中的背景，把空出来的地方无痕补上\n\n就像路人从没来过一样\n\n\n\n我们再来试试AI打光\n\n这是正常的拍摄\n\n现在，关掉我面前的这个光\n\n由于我处于逆光，所以拍出来的照片脸部基本就是一片黑\n\n但是，AI帮我修图后的效果是这样的\n\n我告诉它：“帮我修复照片中人脸逆光的问题”\n\n它就会只给我的脸部重新打光，背景一丝不动\n\n而且整张图的光效还很统一\n\n\n\nok，我们现在再来给AI上点强度\n\n让不在现场的小伙伴和我合个影\n\n这，是她的照片\n\n这，是我刚刚拍的照片\n\n现在告诉AI：“把这两张照片的人合成一张合影”\n\n你看，跨照片移植后的我们\n\n动作还是自然的，表情也很生动\n\n看起来毫无PS痕迹\n\n\n\n我们刚刚使用的这些功能背后\n\n其实藏着一个专门修图的AI小帮手\n\nQwen-Image-Edit\n\n这些照片之所以能做到毫无p图痕迹\n\n靠的就是它既能精确定位、又能精准动手的两大能力\n\n那么AI是怎么进行精准定位的呢？\n\n\n\n这就要说到图像语义分割技术\n\n它能让AI“看懂”一张照片\n\n它会先把整张照片切成无数微小的像素区域\n\n并给每个像素贴上标签\n\n让模型知道每一块区域是什么\n\n所以当你让它去掉路人、或者把红裙子换成蓝色时\n\n模型都能先精准锁定，并切出对应的语义区域\n\n之后只改变这一区域，不动其他任何部分\n\n\n\n为了让后续修图操作更精准\n\nAI还会把你提供的照片“压缩”成一个高维特征向量\n\n也就是它的数字身份证\n\n这张身份证里装着两大类关键信息：身份信息和环境信息\n\n像前面那种把没来的人P进合照的多图编辑，就是靠它来完成的\n\nAI会不断对比两张照片的“身份证”\n\n自动校准人物特征、肤色、光影、亮度这些关键信息\n\n让移植过来的人物自然贴合现场环境\n\n而不是简单贴个脸上去\n\n\n\n今年AI修图质感全面提升\n\n很大程度上也得益于核心控制架构的升级\n\n比如像目前已经很成熟的原生ControlNet架构\n\n它拥有独特的双分支结构\n\n主分支（锁定分支） 负责保证画面生成质量\n\n控制分支（可训练分支） 专门用来理解你的意图\n\n当你给它一个姿势示意图时\n\n控制分支会将参考姿势转化为指令\n\n逐步引导主分支在保持人物身份不变的前提下\n\n重构姿态、造型、背景\n\n像更加专业的图片编辑模型Z-Image-Edit\n\n它的控制架构能让模型在同一条信息流里 同时感知所有条件\n\n这就让它在理解复杂指令、保持人物一致性方面特别强\n\n能同时修改表情、姿态、背景、文字\n\n即使大幅度修改动作 人脸也不会崩\n\n\n\n不过，AI的本事可不局限于修修人物、调调背景\n\n我们一起用千问来体验一些AI修图的新姿势\n\n我觉得它最方便的一个功能就是动嘴修图\n\n利用大语言模型 能让AI从你的语音中精准识别意图\n\n而MMDiT架构 则能让需求文字和图像像素坐下来直接“对话”，确保修图的准确\n\n只要动动嘴对它说出需求，AI就能立即帮你修图\n\n\n\n还有朋友圈很火的live photo也能靠AI实现\n\n先把静态照片导入千问\n\n告诉它生成5秒左右的视频\n\n这一步更进阶的玩法\n\n是还能直接生成和动漫角色的动态合影\n\n之后再用修图软件将视频导成live photo格式\n\n就能直接在朋友圈里炫起来了\n\n\n\n你要不要试试做个表情包？\n\n千问的文字编辑功能也很好用\n\n它支持在图片里直接添加、删除、修改中英文文字\n\n随便找一张图或生成一张图，再加句内心OS\n\n玩梗、吐槽，随手就来\n\n\n\n看完今天的视频\n\n你是不是也已经忍不住\n\n想用AI来修一修你手机里的上千张图了\n\n你会用AI修出哪些神图呢？\n\n欢迎在视频下方评论区和我们分享\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "“废片”拯救计划"
         },
         {
           "title": "上天 入地 下海，AI4S的远征",
           "bvid": "BV1rkvaB2EZy",
-          "url": "[https://www.bilibili.com/video/BV1rkvaB2EZy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1rkvaB2EZy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1rkvaB2EZy",
           "cover": "assets/covers/BV1rkvaB2EZy.jpg",
           "plays": 183000,
           "interactions": 9596,
@@ -374,7 +394,7 @@ window.SITE_DATA = {
         {
           "title": "走 和AI一起看世界",
           "bvid": "BV1vJi7BFETs",
-          "url": "[https://www.bilibili.com/video/BV1vJi7BFETs/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1vJi7BFETs/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1vJi7BFETs",
           "cover": "assets/covers/BV1vJi7BFETs.jpg",
           "plays": 260000,
           "interactions": 10935,
@@ -383,7 +403,7 @@ window.SITE_DATA = {
         {
           "title": "Agent很火，但为什么你做不出来？",
           "bvid": "BV1yhqMB9Ev7",
-          "url": "[https://www.bilibili.com/video/BV1yhqMB9Ev7/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1yhqMB9Ev7/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1yhqMB9Ev7",
           "cover": "assets/covers/BV1yhqMB9Ev7.jpg",
           "plays": 106000,
           "interactions": 8892,
@@ -392,7 +412,7 @@ window.SITE_DATA = {
         {
           "title": "一条视频讲透：AI视频的电影级创作",
           "bvid": "BV1PCiQBkE45",
-          "url": "[https://www.bilibili.com/video/BV1PCiQBkE45/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1PCiQBkE45/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1PCiQBkE45",
           "cover": "assets/covers/BV1PCiQBkE45.jpg",
           "plays": 32000,
           "interactions": 11817,
@@ -401,7 +421,7 @@ window.SITE_DATA = {
         {
           "title": "AI演技大爆发！万物皆可演的时代来了",
           "bvid": "BV1LvrPBgEZ2",
-          "url": "[https://www.bilibili.com/video/BV1LvrPBgEZ2/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1LvrPBgEZ2/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1LvrPBgEZ2",
           "cover": "assets/covers/BV1LvrPBgEZ2.jpg",
           "plays": 88000,
           "interactions": 6163,
@@ -410,7 +430,7 @@ window.SITE_DATA = {
         {
           "title": "如何成为超级个体？",
           "bvid": "BV1AzrZBTE5p",
-          "url": "[https://www.bilibili.com/video/BV1AzrZBTE5p/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1AzrZBTE5p/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1AzrZBTE5p",
           "cover": "assets/covers/BV1AzrZBTE5p.jpg",
           "plays": 176000,
           "interactions": 6644,
@@ -419,16 +439,18 @@ window.SITE_DATA = {
         {
           "title": "AI外呼：call出新高度",
           "bvid": "BV1ZjkVBTEtA",
-          "url": "[https://www.bilibili.com/video/BV1ZjkVBTEtA/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1ZjkVBTEtA/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1ZjkVBTEtA",
           "cover": "assets/covers/BV1ZjkVBTEtA.jpg",
           "plays": 625000,
           "interactions": 7166,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【智能外呼】AI外呼：call出新高度\n\n提醒、回访、通知……\n\n每天，我们都或多或少会接到这样的电话\n\n但现在，电话的那头，可能不再只是真 人客服了\n\n有调研报告显示，2024年全球AI外呼机器人市场销售额已达到14.76亿美元\n\n而在中国，AI外呼系统的市场 的规模，正以每年20%的速度增长\n\n从一次简单的医院康复回访，到一场覆盖几十万人的大型调研，背后都可能有Al的身影\n\n\n\n欢迎来到超级Al研究所，以AI的视角，解码现象背后的先进技术\n\n本期一起来看AI智能外呼是如何拓展服务边界的。\n\n\n\nAl外呼，并不是简单地“群发”一段录制好的语音，而是需要Al与人类完成一场有来有回的“对话”\n\n那么怎么快速“组装”出一个能干的AI呢?\n\n像阿里云通义晓蜜这样的平台，正在帮助降低这件事的门槛\n\n对于没有技术背景的业务人员，可以通过“提示词工程”\n\n用自然语言描述Al的“人设”和“任务”\n\n就像与一 位熟悉的同事沟通一样，大模型能理解这些大白话，快速搭建一个基础对话机器人框架\n\n面对复杂一些的场景，比如要根据用户回答的“满意”或“不满意”走向完全不同的提问分支，那就可以用上  “可视化对话设计”工具\n\n“轻量画布”和“工作流构建”模式可以像画思维导图一样，把不同的对话分支拖拽出 来，直观地构建一个完整的对话流程，极大降低了复杂场景的配置成本\n\n如果是需要深度定制的需求，通义晓蜜也提供了像乐高积木一样的原子化能力和大量API接口，让AI能嵌入到任何专业系统中去\n\n\n\n但是，真实世界的对话充满了随机性，用户不会照本宣科\n\n想让Al真正“听明白”,就需要一系列精密技术的配合\n\n当一通来自医院的康复回访电话被接起时\n\n首先启动的是Al的“耳朵”：自动语音识别技术 (ASR)  要从嘈杂的背景音中精准捕捉人声，并克服用户口音和部分方言的差异，将语音准确地转为文字\n\n接着，自然语言处理技术 (NLP)  与大语言模型扮演的“大脑“登场，让Al不仅能理解字面意思，更能理解“弦外之音”\n\n比如用户先说“不疼了”,接着又说“不过一碰还是有点难受”。Al 能联系上下文，像真人一样理解这种转折，不会死板地认为这是前后矛盾\n\n同时，知识图谱确保了Al在专业领域对话的准确性，\n\n当用户提到“有点发炎”时，Al能立刻关联到知识库中关 于“术后感染指征”、“常用消炎药”等专业内容，并在后续对话中使用专业的表述\n\n\n\n理解了，还要能回应\n\n语音合成技术 (TTS)   就是Al的“嘴巴”,现在的技术已经能合成出带有自然停顿、接近真人音色的语音\n\n配合上情感分析技术，AI还能感知用户情绪，动态调整话术，让沟通更有温度\n\n这一系列技术的无缝衔接，让Al外呼从简单的“单向通知”,进化为有感知的“双向对话”\n\n当这样的对话每天发生成千上万次时， AI所创造的价值就远远超越了完成单次通话本身\n\n设想一下，当一个管理着上千个小区、服务百万家庭的物业集团，如果靠人工打电话进行满意度普查，那得是多么巨大的工作量?\n\n现在，像融山科技这样的服务商，利用Al外呼，曾经需要两个人工、耗时一周才能完成的5000户调研，现在半小时就能搞定，而且有效触达率能从过去的30%-40%,大幅提升到70%以上\n\n这背后靠的就是AI 外呼系统强大的并发能力和智能调度\n\n它能一口气同时打成百上千通电话，在极短的时间内触达大量用户。而且它还特别“懂事”—-会自动避开大家休息的时间，比如深夜或者午休，把电话安排在最合适的时间段，让拨打效率更高、体验也更好\n\n\n\n但一次成功的AI 外呼，可不能以“挂电话”就画上句号\n\n关键还有一步：数据的自动整理。像“通义晓蜜对话分析”这样的工具，就能自动听完整通录音，根据你的业务需求，把重点信息抓出来—-比如客户意向、反馈内容、问题类型等等，再自动生成结构清晰的报告。这样一来，每一通电话，其实都变成了一次精准的数据整理\n\n更厉害的是，AI 还会在过程中不断“学习”和“进化”。不管是顺利成交的通话，还是被挂断、没接通的，这些都会变成训练它的“养料”\n\n通过分析海量的真实对话，AI 能不断调整话术、优化策略，形成一个“实践一 学习一再优化”的正向循环。用得越多，它就越懂你的业务，越聊越专业!\n\n\n\nAI 外呼，正慢慢变成企业感知用户、服务用户的“神经末梢”\n\n它把人类积累的专业经验，变成可复制、可放大的数字能力；又从成千上万通电话里，捕捉那些容易被忽略的小细节——比如语气、犹豫、关键词，再把这些碎片拼成清晰的用户画像和业务洞察。\n\n这样一来，大规模的服务不再是冷冰冰的流程，而是能带着“个性化关注”去触达每个人。\n\n效率提升了，但不是靠牺牲体验，而是建立在对用户更深一层的理解之上。\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "AI外呼：call出新高度"
         },
         {
           "title": "AI摸鱼，卖闲置",
           "bvid": "BV1BSzsBYECr",
-          "url": "[https://www.bilibili.com/video/BV1BSzsBYECr/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1BSzsBYECr/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1BSzsBYECr",
           "cover": "assets/covers/BV1BSzsBYECr.jpg",
           "plays": 62000,
           "interactions": 3431,
@@ -437,7 +459,7 @@ window.SITE_DATA = {
         {
           "title": "重生之我用AI做漫剧",
           "bvid": "BV1nkzeBFEW1",
-          "url": "[https://www.bilibili.com/video/BV1nkzeBFEW1/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1nkzeBFEW1/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1nkzeBFEW1",
           "cover": "assets/covers/BV1nkzeBFEW1.jpg",
           "plays": 41000,
           "interactions": 4990,
@@ -446,7 +468,7 @@ window.SITE_DATA = {
         {
           "title": "一张机票背后的AI",
           "bvid": "BV1rDchzkEVZ",
-          "url": "[https://www.bilibili.com/video/BV1rDchzkEVZ/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1rDchzkEVZ/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1rDchzkEVZ",
           "cover": "assets/covers/BV1rDchzkEVZ.jpg",
           "plays": 231000,
           "interactions": 8431,
@@ -455,7 +477,7 @@ window.SITE_DATA = {
         {
           "title": "今年春节 来重庆啷个耍！",
           "bvid": "BV1d8cvzkEL4",
-          "url": "[https://www.bilibili.com/video/BV1d8cvzkEL4/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1d8cvzkEL4/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1d8cvzkEL4",
           "cover": "assets/covers/BV1d8cvzkEL4.jpg",
           "plays": 657000,
           "interactions": 14840,
@@ -464,7 +486,7 @@ window.SITE_DATA = {
         {
           "title": "AI告诉你，中国马有多牛！",
           "bvid": "BV19vcvzuEwP",
-          "url": "[https://www.bilibili.com/video/BV19vcvzuEwP/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV19vcvzuEwP/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV19vcvzuEwP",
           "cover": "assets/covers/BV19vcvzuEwP.jpg",
           "plays": 237000,
           "interactions": 15752,
@@ -473,7 +495,7 @@ window.SITE_DATA = {
         {
           "title": "用AI定制你的专属BGM",
           "bvid": "BV16cAUzoEMY",
-          "url": "[https://www.bilibili.com/video/BV16cAUzoEMY/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV16cAUzoEMY/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV16cAUzoEMY",
           "cover": "assets/covers/BV16cAUzoEMY.jpg",
           "plays": 22000,
           "interactions": 4750,
@@ -482,7 +504,7 @@ window.SITE_DATA = {
         {
           "title": "AI真能当宠物嘴替？",
           "bvid": "BV1QXAdzNEnp",
-          "url": "[https://www.bilibili.com/video/BV1QXAdzNEnp/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1QXAdzNEnp/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1QXAdzNEnp",
           "cover": "assets/covers/BV1QXAdzNEnp.jpg",
           "plays": 57000,
           "interactions": 6717,
@@ -491,7 +513,7 @@ window.SITE_DATA = {
         {
           "title": "AI方言，倍儿地道",
           "bvid": "BV1rgPSzeEcz",
-          "url": "[https://www.bilibili.com/video/BV1rgPSzeEcz/?spm_id_from=333.1387.upload.video_card.click](https://www.bilibili.com/video/BV1rgPSzeEcz/?spm_id_from=333.1387.upload.video_card.click)",
+          "url": "https://www.bilibili.com/video/BV1rgPSzeEcz",
           "cover": "assets/covers/BV1rgPSzeEcz.jpg",
           "plays": 93000,
           "interactions": 8056,
@@ -500,130 +522,158 @@ window.SITE_DATA = {
         {
           "title": "听说龙虾已经开始自己投简历找工作了",
           "bvid": "BV1pSXsB6Eaj",
-          "url": "[https://www.bilibili.com/video/BV1pSXsB6Eaj/?spm_id_from=333.1387.upload.video_card.click](https://www.bilibili.com/video/BV1pSXsB6Eaj/?spm_id_from=333.1387.upload.video_card.click)",
+          "url": "https://www.bilibili.com/video/BV1pSXsB6Eaj",
           "cover": "assets/covers/BV1pSXsB6Eaj.jpg",
           "plays": 156000,
           "interactions": 3579,
-          "isMain": true
+          "isMain": true,
+          "script": "",
+          "scriptTitle": "听说龙虾已经开始自己投简历找工作了"
         }
       ],
       "featured": [
         {
           "title": "千镜大战，离「超级终端」还有多远？",
           "bvid": "BV1YNbNzxER1",
-          "url": "[https://www.bilibili.com/video/BV1YNbNzxER1/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1YNbNzxER1/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1YNbNzxER1",
           "cover": "assets/covers/BV1YNbNzxER1.jpg",
           "plays": 205000,
           "interactions": 16713,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AI眼镜】千镜大战，离「超级终端」还有多远？\n\n生活中当你看到路人穿着一件好看的衣服时会怎么做？\n\n如果是E人，可能会走上前去问：“你这件衣服在哪买的？”\n\n但如果是I人，估计只会偷偷掏出手机，打开淘宝悄悄拍张照。\n\n不过对I人来说，现在有了一个新工具——AI眼镜。\n\n只要眨眨眼就能在淘宝找同款，甚至还能自动比价。\n\n这种便利功能背后，其实是一场全球科技企业的“千镜大战”。\n\n今天，我们将走进“硝烟弥漫”的AI眼镜，参与这场“鼻梁”争夺战。\n\n\n\n欢迎来到超级AI研究所，以AI的视角，解码现象背后的先进技术。\n\n\n\n**Part1 鼻梁上的科技争夺战**\n\n当现实与数字的边界开始坍缩，一场关于“AI视觉革命”的星火，已在全球悄然燎原。\n\n这是AI元年全球“造镜运动”的第一簇火焰——Ray-Ban Meta智能眼镜。\n\n它由科技巨头Meta携手时尚品牌雷朋联手打造，是当时最潮的科技单品，两年销量突破百万。\n\n今年，Google、微软、苹果三大巨头公司也纷纷宣布入局，AI眼镜大战一触即发。\n\n其中，自然也少不了中国科技力量的加入。\n\n2025年7月末，阿里夸克推出自研AI眼镜“哇哦 Quark Glasses”，携带顶配硬件与阿里全生态阵容亮相。\n\nXREAL、Rokid也同步亮出自家新品。在此之前的一个月，小米也官宣入局。\n\n科技巨头接连下场的背后，是AI眼镜早已被业内称为继智能手机后最重要的移动终端。\n\n这不是简单的硬件迭代，而是一场感知维度的跃迁。\n\n引得科技巨头与科技新秀纷纷押注的AI眼镜是下一代超级终端吗？\n\n这场有关“视觉文明”的竞速究竟意味着什么？\n\n在回答这些问题之前，我们要先回看两次过去时的技术演进。\n\n\n\n**Part2 视觉革命：从物理空间到数字空间**\n\n视觉是人类最重要的感觉通道，占据信息来源的83%，是我们认知世界的绝对主力。\n\n随着计算机技术的发展，人类也持续探索视觉上的升级，构想将计算机与人眼相结合，创造出更强大的视觉系统。\n\n1968年，计算机图形学家伊万·萨瑟兰发明了第一款头戴式显示设备“达摩克利斯之剑”。\n\n尽管它体积庞大、功能简陋，却为AR技术奠定了基础。\n\n1984年，科幻电影《终结者》的主角T800眼睛里的数据显示设备，让人们在赛博镜片后窥见自己的视觉未来。\n\n从工程师实验到银幕幻想，人类对“看见”的持续追问，也推动了视觉系统从物理空间向数字空间的跃迁。\n\n这场跃迁的引擎，正是交互技术的不断进步：\n\n从早期的实体按键和简单语音指令，\n\n到利用摄像头、传感器和手势识别实现无接触操作，\n\n再到装配毫米波雷达与搭载AI大模型进行多模态灵活交互。\n\n进入21世纪，这场视觉革命也从实验室走向了市场。\n\n2012年，谷歌发布Google Glass，通过微型显示屏将图像反射到用户单目视野中，还能支持简单的语音控制拍照、导航等功能。\n\n与此同时，国内市场也暗流涌动。\n\n2018年Rokid推出了国内首款量产的AR眼镜Rokid Glass。\n\n它不只是简单的让人在头上“长”摄像头，还要让人的眼前“长”出屏幕。\n\n当你在博物馆欣赏展品时，它可以像一位随身导游，通过语音助手详细介绍展品历史，还能呈现可交互的文字、图片、视频和3D全息场景。\n\nAI技术带来了前所未有的速率、精度与维度上的升级，也让眼镜背后的视觉革命从看见迭代到看懂。\n\n\n\n**Part3 感知革命：AI让眼镜“更懂”世界**\n\n当大模型的浪潮席卷全球，AI眼镜进一步成为了人机交互的全新界面。\n\n以Meta与雷朋联手推出Ray-Ban Meta为例，\n\n它的创新突破不在于眼镜本身，而在于其内部嵌入的AI“视觉芯片”，\n\n能实现语音控制、实时翻译、照片拍摄等功能，成为人们新的智能“视网膜”。\n\n这种数据流动于视网膜的全新交互路径，也被各大科技玩家迅速跟进。\n\n去年霸榜热搜与央视的Rokid Max Pro搭载了通义大模型，\n\n能分析图像内容、自动捕捉对话并显示字母，甚至还能做翻译，\n\n而它的轻量化机身仅有76克。\n\n到了今年，夸克的AI眼镜升级为双芯片架构作为底座的同时，\n\n还融合了阿里全生态，购买、支付、出行都能靠“看一眼”解决。\n\n在SuperRAW暗光算法、多帧降噪技术、动态防抖补偿的加持下，\n\n你只需看一眼想要的东西，就能一下子识别出物品。\n\n内置的通义大模型则继续将物品图像快速匹配淘宝商品库，迅速推荐商品链接。\n\n“看一眼支付”还能让人安全放心地解放双手。\n\nSLAM空间定位配合双摄像头实时构建环境，可以确保扫码视角精准性；\n\n声纹多因子核身降低了盗刷风险；\n\n再配合通义端侧AI模型，实时追踪用户视线焦点并触发支付指令，\n\n只要“看”向二维码，声纹验证后就能完成支付。\n\n高德AR导航路线可实时投射在镜片、飞猪行程的贴心提醒，也让出行变得更便捷。\n\n工作中，夸克AI眼镜就能实时记录会议内容并生成摘要。\n\n声场分离技术先把老板、同事、环境音拆分成三条音轨，\n\n调用通义的语音识别模型和增量式语义理解一边听一边为你划下重点，\n\n这下再也不怕开会走神、被老板点名提问答不上来了。\n\n随着技术发展，早期AI眼镜的一些瓶颈也得到了改善。\n\n在画质方面，雷鸟的X3 Pro可以把色彩还原度接近手机屏幕级别，降低色彩暗和“彩虹纹”问题。\n\n在续航方面，夸克AI眼镜则是给到了“量大管饱”的可换电的双电池系统，\n\n同时还提供了一个耳机盒大小换电仓，可通过热插拔主电池实现24小时续航，解决了大部分人的“续航焦虑症”。\n\n软硬一体迭代，只为一件事，\n\n让AI眼镜戴起来像睁眼一样自然，无缝融入我们生活的每时每刻。\n\n\n\n现在，也许我们可以回答对超级终端的追求和这场视觉文明的竞速意味着什么。\n\n这意味着世界都可以变成了你的移动屏幕，在短短几年时间里，将有数千万人的生活方式因此改变。\n\n在更长久的未来，它们也会成为我们理解世界的“第三只眼”。\n\n真正的变革正在于人类重新抬头的瞬间，我们借由这副AI之眼，重新学会“看见”。\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "千镜大战，离「超级终端」还有多远？"
         },
         {
           "title": "AI作业批改：读懂每次进步",
           "bvid": "BV13wYNzAE4m",
-          "url": "[https://www.bilibili.com/video/BV13wYNzAE4m/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV13wYNzAE4m/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV13wYNzAE4m",
           "cover": "assets/covers/BV13wYNzAE4m.jpg",
           "plays": 248000,
           "interactions": 20365,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AI批改作业】AI作业批改：读懂每次进步\n\n85.6秒，这是一名高中教师在过去批改一份数学试卷主观题的时间。\n\n而现在，这个时间足够批改完全班同学的试卷，甚至让每位同学知道自己的分数。\n\n让试卷批阅大大加速的神器，就是这支由算法和代码组成的\"AI红笔\"。\n\n老师只需要轻点屏幕，「上传」，作业便由AI 一键批阅。\n\n对学生而言，AI批改作业不仅能标注对错，还能精准定位知识盲区、解析思维路径，每道题都有错误分析和详细评语。作业题不再停留于二维纸面上，而是跃迁为知识网络的触发器。\n\n当我们重新打开作业本，会发现AI批改作业正在求解教育进化的「方程式」\n\n\n\n欢迎来到超级AI研究所，以AI的视角，解码现象背后的先进技术。\n\n\n\n这份AI错题本是小周同学提升成绩的重要法宝。今天，错题本显示他在\"硫及其化合物”的题目上再次出错\n\n而这个知识点也是他最近学习的薄弱环节。过去，他光是抄写整理这道错题就要花费半个小时。\n\n现在，这个时间已经够他看完错题解析、再做完几道同类型题目训练，并复习巩固完相关知识点。\n\n而像这样由AI帮助解决大量重复劳动的现象，也出现在老师批改作业和家长辅导作业上。\n\n\n\n校园里，AI正悄然重塑教师的批改日常。面对全班数十份作业，老师只需一支“AI红笔”，就能又准又快地完成作业批改。\n\n这支“AI红笔”有着超强的“视觉中枢”：利用卷积神经网络的OCR识别。\n\n简单来说，它可以精准识别图像上的手写字迹、符号，将试卷上的手写体实时“翻译”成机器可读的数据；\n\n与此同时，多线程并行处理同步发力，可以同时解析多份作业，相当于多位AI老师一起批改，快速完成单篇批注。\n\nAI批改作业不光 够准、够快，也在进化得更加全面。即使是不同学科的作业，也能靠它搞定。\n\n\n\n今年7月的世界人工智能大会上，阿里云携手七天网络，推出了“全科智批改系统”。\n\n近来，头部科技厂商与教育领域企业合作，也带来了许多全学科智能批改产品。\n\n依托通义大模型等AI能力，系统不仅能精准批改各类填空题，更能对理化生等综合解答题的关键步骤、解题逻辑与最终答案，进行细致评估。\n\n即使面对“千人千文”的语文作文，也能对标题立意、行文逻辑等进行多维度拆解，同步输出个性化评价与建议，做到“既打分数，又讲思路”。  \n 从语文作文、英语单词、到数学证明题、物理大题、甚至化学方程式，AI批改都能实现智能批阅。\n\n\n\n不止在学校，回到家，AI批改也正在重塑孩子自主学习的状态。\n\n家长不用再“绞尽脑汁”或“声嘶力竭”做指导。\n\n比如当孩子写完周记，家长只需要 用手机扫描 作文本，语义理解技术（NLP）驱动下的“AI老师” ，就可以从百万语料中遴选字句的进阶表达，并用红圈锁定错别字，红色高亮圈住并提出改进建议，绿色高亮点赞作文里的创意点并进行点评。\n\n孩子能马上收获反馈，家长也不必再挑错别字、语法等细节，而是可以成为孩子在文章主题、立意等方面的“共创者”。\n\nAI批改带来更明显的家庭学习进步是，家长不需要花费大量时间学习各科知识，也能发现孩子的薄弱环节。\n\n\n\n精准学科技就运用知识图谱，构建出“知识点-题目-教材章节”的知识网络，依据上传的作业情况，动态追踪孩子对知识点的掌握状态。\n\n比如两个小朋友做同样的题目、得到相近的分数，AI也能通过错题，检测出两人的薄弱环节是不一样的，让家长和孩子能及时查漏补缺，通过标定孩子的“最近发展区”，推荐更加高效的专属学习路径。\n\n到这里，我们会发现，AI批改输出的远不止对错的判定，更在于 为每个学生  生成 个性化学习导航图，让老师、学生、家长三方共享同一个学习坐标。\n\n\n\nAI应用在教育的核心意义，是让教育回归本质。\n\n教育，是一棵树摇动另一棵树，一朵云推动另一朵云，一个灵魂唤醒另一个灵魂。这份灵魂间的共振，需要教育者倾注全部热忱。\n\nAI与算法，不是为了替代老师手中的那支红笔，而是接过老师手中那些机械、重复的劳动，让教育的温度，更能穿透纸面，抵达灵魂。\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "AI作业批改：读懂每次进步"
         },
         {
           "title": "智能座舱，把世界“装”进车里",
           "bvid": "BV1JtJCzQEJz",
-          "url": "[https://www.bilibili.com/video/BV1JtJCzQEJz/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1JtJCzQEJz/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1JtJCzQEJz",
           "cover": "assets/covers/BV1JtJCzQEJz.jpg",
           "plays": 255000,
           "interactions": 11758,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【智能座舱】智能座舱，把世界“装”进车里\n\n这些，不再是对未来的想象，而是已经被智能座舱实现的功能\n\n在中国，新能源汽车保有量超过3600万辆，新车的智能座舱渗透率攀升至73%\n\n现在的汽车，已经不只是个冷冰冰的交通工具，它正在变成一个更了解我们需求的智能伙伴\n\n\n\n欢迎来到超级AI研究所，以Al的视角，解码现象背后的先进技术。\n\n本期一起来看看智能座舱这些神奇功能的背后，有着怎样的技术支撑?\n\n\n\n还记得以前汽车座舱长什么样吗?\n\n提供少量基本数据信息的机械仪表盘、简单的音频播放设备、几乎全是物理按键的中控台\n\n按一下“开”，再按一下“关”,只能机械完成任务\n\n2012年，特斯拉Model S发布，搭载的17英寸超大中控屏\n\n改变了用户与车辆的交互方式，成为智能座舱发展的重要启蒙者\n\n之后，各大传统车企和新势力纷纷跟进\n\n第一代智能座舱搭载了语音识别 (ASR)、 语音合成 (TTS)、 自然语言处理 ( NLP)  等技术\n\n迅速变得流行起来，减少了传统的物理按键操作，让人车交互更方便、更自然\n\n\n\n不过，第一代智能座舱还是差点儿意思\n\n比如 ，屏幕触控，有时候会增加开车的风险\n\n语音交互，有时候也会因为识别不准，把“打开车窗”听成“打开天窗”\n\nAPP只能以封装形式进入车辆，智能车载的应用，少得可怜\n\n而现在的第二代智能座舱， Al和大模型“上车”成为热潮\n\n有了各种Al智能体和大模型的帮助，车内的交互方式产生了很大的改变\n\n智能座舱变得更“懂你”和“主动”\n\n正在快速演变成我们的“第三生活空间”\n\n\n\n智能座舱的背后，是多种Al技术的融合与协作\n\n从坐进车内的那一刻起，汽车就不仅在“看路”，也在时刻看着你\n\n多模态模型的应用，只需要一句话，就能让智能座舱理解你的需求\n\n智能座舱也学会了\"察言观色\"\n\n通过捕捉你的表情与动作，系统能识别疲劳状态并及时提醒\n\n3D数字人技术和多模态感知技术，让车载助手不再是冷冰冰的语音\n\n更能用丰富表情和动作提供情绪价值\n\n它还会通过眼神和动作，跟你确认指令，强化人与车之间的情感链接\n\n\n\n大模型，也让智能座舱变得\"聪明\"起来\n\n它会记住你的习惯，自动调整座椅、后视镜和空调，让你每次上车都能找到最舒适的感觉\n\n它提升了语音识别准确率，在嘈杂的环境中准确捕捉你的每一句话\n\n它还能记住上下文，实现多轮对话\n\n当提问\"附近有什么好玩的\"，再追问\"哪个评分高\"\n\n它能准确理解意思并直接推荐最佳去处\n\n真正实现了\"看懂人，听懂话\"的交互体验\n\n\n\n智能座舱不再只是简单语音控制，它也学会了“预判需求”\n\n利用通义大模型打造的\"智能座舱AI大脑\"\n\n将部分AI能力部署在车端，在本地就能处理语音指令\n\n即使在信号不佳的隧道中，也能流畅响应\n\n同时将复杂计算放在云端，实现其他更强大的Al能力\n\n前段时间，通义、斑马、高通联合发布的端侧多模态大模型解决方案\n\n甚至在车里，就能完成90%的任务执行\n\n斑马智行以System  Agent作为交互主入口，通过日常对话即可调用不同Agent\n\n打通办公、搜索、生活服务等应用，在不同场景中提供贴心服务\n\n以“AI外卖”为例，用户在行车途中说出“我想吃附近的川菜”\n\nSystem  Agent即可语音识别分析需求\n\n由本地生活Agent调用“饿了么”数据 筛选餐厅， 自动完成无感支付\n\n并根据车辆行程规划送餐时间，最终“人到、车到、餐到”\n\n这背后，是通过多模态融合感知、多意图理解\n\n自主规划、调度、执行任务，为用户提供主动式服务，真正实现：“No Touch、No App”\n\n智能座舱的发展，正在逐渐打破“车”与“生活”之间的边界\n\n大模型也在重构车内服务生态，它能够将不同APP的功能单独拆解\n\n再根据实际应用场景灵活组装\n\n在未来，或许还能无缝连接其他智能设备\n\n在车上就能控制家里的智能家居\n\n这种生态融合的能力，也让汽车逐渐成为\"第三生活空间\"\n\n\n\n智能座舱，正在从代步工具\n\n蜕变为 一个能感知、会思考、有温度的“移动生命体”\n\n每一次出发，都让我们充满期待\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "智能座舱，把世界“装”进车里"
         },
         {
           "title": "AI调度，守护14亿万家灯火",
           "bvid": "BV11H4LzqEmy",
-          "url": "[https://www.bilibili.com/video/BV11H4LzqEmy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV11H4LzqEmy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV11H4LzqEmy",
           "cover": "assets/covers/BV11H4LzqEmy.jpg",
           "plays": 672000,
           "interactions": 30022,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AI电力调度】AI调度，守护14亿万家灯火\n\n**Parti：5秒，被按下的光明暂停键**\n\n2025年4月，伊比利亚半岛的午夜。\n\n5秒——一次呼吸的间隙，西班牙全国60%的电力瞬间消失，马德里286台地铁电梯悬停半空，3000多名旅客滞留瓦伦西机场，西班牙、葡萄牙、法国西南部数百万人陷入到黑暗中……\n\n这场被欧盟称为\"十年来最严重的电力事故\"，暴露出现代文明的脆弱一面：当电力调度系统失守，人类用百年构建的光明世界，竟可能瞬息崩塌。\n\n\n\n欢迎来到超级AI研究所，以AI的视角，解码现象背后的先进技术。\n\n本期让我们一起走进电力世界，了解AI电力调度所扮演的指挥官角色。\n\n\n\n**Part2：电力长城：270亿度电的千里奔袭**\n\n电力，是流动在现代文明血管中的血液。而调度系统，则是掌控全身血脉搏动的“超级心脏\"。\n\n在中国，这场能源迁徙尤为壮阔——\"发电的心脏\"在西部高原与荒漠强劲跳动，而“用电的需求”则在东部城市群蓬勃增长。\n\n为平衡这场跨越上千公里的能量潮汐，中国土地上编织出了全球最大的特高压电网：已投运的42项特高压交直流工程（特高压交流，电压等级1000kV，22条；特高压直流，电压等级±800kV，20条），单条跨越6省、绵延上千公里，形成了纵横中国的“电力长城\"。\n\n每天，中国会产生约270亿度电力需求——相当于32座世界最大水电站\"雅江水电站\"全力拉满一日的发电总量，奔涌在密如蛛网的庞大电网上，点亮14亿民众的生活。\n\n任何细微的调度偏差，都可能引发危险的连锁反应。\n\n\n\n**Part3：零容错时代的调度炼狱**\n\n目前，风电与光伏贡献了全国超63%的绿电，但一场暴风雨就会导致发电功率剧烈波动，足以让千万屋顶光伏集体“失语\"。\n\n极端天气不仅影响发电，也会带来用电量的激增：受高温天气影响，今年7月16日，全国电网负荷历史性突破15亿千瓦——相当于能点亮150亿盏100瓦灯泡的电量。\n\n随着全国超千万辆新能源汽车化身\"充电巨兽\"，随机充电需求也猛猛砸向电网的脆弱节点。\n\n这些都让电网的平稳运行面临更大压力，而调度的容错率必须是零。\n\n这份稳定的背后，是电网工作者们的坚守付出。\n\n过去，电网调度中心里，一天5班、每班5人的调度员小组，24小时不间断轮守。每个决策窗口以秒计时，汗水浸透的工服下，是人类大脑与复杂电网的极限对抗。\n\n\n\n**Part4：Al觉醒：电网的\"数字神经”**\n\n直到AI推开调度室的大门\n\n首先解决的，是预测的问题：\n\n占全国光伏装机约44%的分布式光伏，让千家万户的屋顶都变成了\"微型发电厂”，但也因为受天气影响大、分布不集中，让电网难以精确预测和管理。\n\n而且它直接接入低压配电网，可能会导致局部电网的过载，对电网的稳定也带来了很大冲击。\n\n时序大模型化身\"天气解读者\"，对分布式光伏开展高精度预测，能更精准地掌握总输出功率，面对极端天气，能将发电预测精度从96.98%跃升至99.62%以上。\n\n技术的发展也正在培养着“永不疲倦的AI调度员\"：\n\n阿里云与某电网共同搭建了云化DSP电网仿真系统+强化学习算法+集群化封装的训练平台，为\"AI在线调度员\"实现训练和优化，帮助电力调度逐渐由\"经验\"向\"智能\"进化。\n\n\n\n大语言模型，让AI从计算工具进一步升级为人类决策者的\"全能参谋\"：\n\n尤其在面临突发恶劣天气或故障时，能让调度员更加从容应对。\n\n去年9月，当雷雨夜突袭某地，大模型启动思维树推演：快速生成多套供电恢复方案，结合实时风速动态调整优先级，让调度员能够更加游刃有余地应对各种突发状况。\n\n除此之外，面对日趋庞大复杂的电网结构，运用大模型与检索增强生成技术（RAG），融合千份调度规程与百亿条历史数据，构建电网调度\"决策图谱\"，调度日报编制时间从3小时缩短至3分钟，释放的人力正转向更富创造性的安全防线构建。\n\n\n\n**Part5：灯火阑珊处的算法星辰**\n\n当特高压铁塔在暮色中划出银色弧线，当城市霓虹再次点亮夜晚——那是万千智能算法在毫秒级决策中，将电力系统的复杂性，谱写成平凡夜晚的稳定频率。\n\n这场电力的智能进化，让绵延千里的电力长城生长出\"AI神经\"。它安静地守护着每扇窗后的灯火，也会照亮更远的未来，成为人类智慧最明亮的注脚。\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "AI调度，守护14亿万家灯火"
         },
         {
           "title": "能哄人会操作，重新定义“客服”这件事",
           "bvid": "BV1LLsazfEKK",
-          "url": "[https://www.bilibili.com/video/BV1LLsazfEKK/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1LLsazfEKK/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1LLsazfEKK",
           "cover": "assets/covers/BV1LLsazfEKK.jpg",
           "plays": 102000,
           "interactions": 6739,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【智能客服Agent】能哄人会操作，重新定义“客服”这件事\n\n你是否也接到过这样的客服电话?\n\n声音清澈，情感丰富，回复迅速\n\n但有没有意识到这些和你聊天的“客服”\n\n其实根本不是真人呢\n\n\n\n欢迎来到超级Al研究所，以AI的视角，解码现象背后的先进技术\n\n本期我们一起来看看，这些以假乱真“客服”背后的技术——智能客服Agent\n\n\n\n藏在智能客服Agent热情面具下的，不只是一台冷冰冰的“回复机器”\n\n依托通义等大模型的情感理解能力\n\n智能客服Agent不仅能听懂用户说什么，还能感知“说话时的情绪”\n\n当检测到用户语句中出现焦虑、不满或愤怒等情绪信号\n\nAl会立即识别情绪波动，并主动切换为安抚型话术\n\n通过情绪自适应响应，避免服务矛盾升级，让沟通也更有温度\n\n\n\n在多模态大模型的驱动下，智能客服Agent 具备了类人的感知与理解能力\n\n无论是你输入的文字、发出的语音，它都能快速识别并综合分析\n\n多轮意图理解技术，让AI能精准把握用户连续提问中的上下文关联\n\n例如，在预订酒店时，当你确认好入住日期和酒店位置后，插入追问：“明天天气怎么样”\n\n智能客服在快速答复天气情况后，无需你再次确认，便能自动回到预订流程，基于前文理解，接着询问你对房型的偏好\n\n从而自然衔接服务流程，像真人客服一样连贯响应，告别答非所问的困扰\n\n\n\n对于小程序店铺等独立站运营者来说，智能客服Agent的能力，远不止“对话”\n\n想象一下，传统人工客服面对店内数百个SKU和随时都在变化的各种商品和活动信息\n\n还要在订单、物流、产品等多个系统间反复横跳，这是多么庞大而复杂的工作量\n\n而智能客服Agent 都能轻松搞定。\n\n例如，处理一次退货，传统流程可能涉及多个复杂操作流程：查订单、翻SKU文档、找物流拦截……\n\n而基于通义晓蜜构建的智能客服Agent,  能一键串联多个系统API\n\n仅在”物流催发“这一个场景，就将过去需要客服参与的数十个环节的处理流程快速完成\n\n智能客服Agent 能自动化解决大量重复性问题，将人工客服解放出来，转型成为处理其他复杂问题的“Agent 主管”，实现更高效的人机协同\n\n\n\n不仅如此，智能客服Agent也正在逐渐从“服务”领域扩展到“销售”领域\n\n比如，在十分依赖电话沟通的汽车销售行业，智能客服正在悄悄改变游戏规则\n\n过去汽车电销人员每天要花费大量的时间，和用户打电话沟通\n\n但大部分时间都花在了信息筛选上，真正有用的商业线索很少\n\n而现在 ，有了瓴羊等头部厂商推出的智能客服Agent,  就像配备了一位不知疲倦的销售助理\n\n通过线索清洗与意图识别技术，过滤掉那些“随便问问”的无效信息\n\n把最有可能成交的“高价值客户”推给销售员，让销售员把时间和精力用在真正有意向的客户身上\n\n智能客服Agent甚至还会“主动出击”\n\n基于大模型的AI外呼系统，能根据潜在目标用户的信息，生成个性化销售话术\n\n主动呼叫和邀约，用户试驾完后， 还会自动生成试驾报告，帮助销售员制定下一步计划\n\n这套“又快又准”的组合拳，大大提升了整个销售流程的效率\n\n\n\n智能客服Agent,  并不是简单的人力替代，更是一场服务效率与体验的革命\n\n通过机器，智能高效处理海量信息，将精准可靠的服务体验带给每一位用户\n\n这背后映射的，是人类对更高效率和更优服务的永恒追求\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "能哄人会操作，重新定义“客服”这件事"
         },
         {
           "title": "AI制片厂：短视频的下一站",
           "bvid": "BV16gyqBjEPo",
-          "url": "[https://www.bilibili.com/video/BV16gyqBjEPo/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV16gyqBjEPo/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV16gyqBjEPo",
           "cover": "assets/covers/BV16gyqBjEPo.jpg",
           "plays": 813000,
           "interactions": 34532,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AIGC视频】AI制片厂：短视频的下一站\n\n**引入**\n\n云冈石窟的大佛，打卡云冈石窟\n\n穿越回4000年前，亲临大禹治水现场\n\n神仙的雕像，顺着梯子往天上爬\n\n看到这些Al视频\n\n网友不语，只是一味点赞、评论、转发\n\n亲手把它们推成互联网爆款\n\n欢迎来到超级Al 研究所\n\n以AI的视角，解码现象背后的先进技术\n\n\n\n本期视频，我们将一起深入脑洞大开的Al视频\n\n看看在全民创作时代，Al如何打造10w+爆款?\n\n\n\n**Part1  技术重塑角色**\n\n我们先来回顾两场完成时的视频创作演进，以及技术如何重塑你的角色\n\n时间拉回到20多年前\n\n虽然当时诞生了众多经典作品，但内容创作权牢牢掌握在专业机构手中\n\n大多数人只能被动接收，做屏幕前的观众\n\n2005年，YouTube上线，喊出\"Broadcast Yourself\"\n\n同年，土豆网上线，提出“每个人都是生活的导演”\n\n互联网与内容平台，推开全民创作时代的大门\n\n海量、多元、来自普通人的创作内容，爆炸式增长\n\n人人都能成为视频玩家\n\n\n\n不过，爆款视频有个「不可能三角」\n\n创意要新、更新要快、质量要高\n\n个人创作者很难兼顾\n\n而AI提供了破解之道\n\n2023年， Runway  发布 文字生成视频模型 Gen-2\n\n在当时，让不少人感到惊艳\n\n2024年起，全球科技企业开启“神仙打架”模式\n\n文本生成视频、图像生成视频、视频生成视频、音频生成视频，技术快速成熟\n\n抽象、有趣、高质量的AI视频，不断爆火出圈\n\n\n\n**Part2 解码AI创造力**\n\n那么,AI是如何驾驭视频创作的呢?\n\n答案在于两项核心能力：视觉常识+想象力\n\n以及支撑这一切的技术基石——扩散模型\n\n视觉常识是AI理解世界的字典\n\n它让AI知道，猫有四条腿、吉他有长长的琴颈\n\n想象力，则是AI组合元素的创造力\n\n让它能根据指令，把猫爪放在正确的位置，摆出弹吉他的姿态\n\n扩散模型的灵感来自于热力学中的扩散过程\n\n想象把墨水滴在清水中\n\n它会自发从一团墨扩散成  一杯淡墨水\n\n\n\nAI的强大之处，在于它学会了反向操作\n\n能根据引导，一步步“倒放”出全新，且清晰的图像\n\n这杯淡墨水就是Al的画布，也就是噪声场\n\n而引导它的那只“隐形的手”就是编码\n\n以文本生成视频为例\n\n当我们输入指令“一只弹吉他的猫”\n\n文本编码器，会将其转化为编码\n\n扩散模型会从一个完全随机的噪声场开始\n\n在视觉常识与编码的引导下\n\n消除最不像猫的噪声，生成模糊的猫形色块\n\n接下来编码又指导它“猫在弹吉他”\n\n扩散模型发动想象力\n\n继续在猫形色块的基础上，移除那些不像吉他形状的噪声，同时强化猫的形态\n\n消除噪声-强化特征-细化细节，这个过程不断循环往复\n\n直到形成清晰的图像\n\n\n\n当所有帧生成完成后，视频解码器会合成最终成片\n\n这种创作逻辑，灵活性极高且耗时更短\n\n能让创意快速落地\n\n\n\n**Part3   电影级新玩法**\n\n今年4月，通义万相Wan2.1 视频模型的首尾帧生成\n\n带给不少人小小的AI震撼\n\n只需首帧和尾帧两个静态关键帧\n\n模型就能自动生成丝滑流畅的视频\n\n随后迭代的Wan2.2与最新的2.5 Preview版本\n\n不仅在视频画质、生成速度与可控性上，全面跃升\n\n还推出电影级新玩法\n\nWan2.2模型将专业美学属性，转化为可控参数和美学提示词\n\n进一步驾驭不同风格、不同气氛的表达\n\n新的模型架构，将视频生成过程，分为：高噪声和低噪声两个阶段\n\n高噪声专家，搭建视频的“骨架”\n\n低噪声专家，精修“血肉”\n\n兼顾视频生成的质量与效率，解决了时空一致性难题\n\n即使面对大幅度运动的高级运镜\n\n也能保证画面的真实感\n\n训练数据中还引入更多物理规律\n\n并构建精细的面部原子动作和情绪表情系统\n\n微妙的面部表情、自然的手部动作、多人之间的自然交互、复杂的整体运动\n\nAl都能精准掌控\n\n输出的视频在质感上更逼近大片\n\n\n\n最新推出的Wan2.5  Preview模型\n\n在音频生成视频方面，实现了显著的能力跃迁\n\n这得益于原生多模态架构\n\n能将文本、图像和音频放在一起联合训练\n\n输入一段音乐或旁白， Al可自动生成与之情绪、节奏匹配的动态画面\n\n直接输出声情并茂的视频\n\n有了Al的共创，个人创作者能把更多精力留给故事与创意\n\n真正成为自己视频的导演\n\n\n\n**结尾**\n\nAl并非要取代人类创作者，而是作为强大的生产伙伴和创意伙伴\n\n提升内容创作的效率，拓宽想象力的边界\n\n这正是技术的真正目标，人人都能拥抱创作",
+          "scriptTitle": "AI制片厂：短视频的下一站"
         },
         {
           "title": "用AI！写出每日头条",
           "bvid": "BV1naS5BaEpS",
-          "url": "[https://www.bilibili.com/video/BV1naS5BaEpS/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1naS5BaEpS/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1naS5BaEpS",
           "cover": "assets/covers/BV1naS5BaEpS.jpg",
           "plays": 666000,
           "interactions": 6544,
-          "isMain": true
+          "isMain": true,
+          "script": "",
+          "scriptTitle": "用AI！写出每日头条"
         },
         {
           "title": "“箱”当重要：Agent的“隐形守护者”",
           "bvid": "BV1cj2kBvETn",
-          "url": "[https://www.bilibili.com/video/BV1cj2kBvETn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1cj2kBvETn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1cj2kBvETn",
           "cover": "assets/covers/BV1cj2kBvETn.jpg",
           "plays": 557000,
           "interactions": 6481,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【无影AgentBay】“箱”当重要：Agent的“隐形守护者”\n\n从智能家居到智慧出行，从高效办公到便捷生活\n\nAgent 正在逐渐深度融入我们的日常生活，带来实实在在的便利\n\nAgent正在从单个处理简单任务的\"助手\"\n\n逐渐成为帮助我们应对复杂情况的\"专业团队\",\n\n但你是否想过：它们是如何安全有序地协作，确保所有操作都可靠可控?\n\n\n\n欢迎来到超级AI研究所，以AI的视角，解码现象背后的先进技术\n\n本期视频，我们一起看看支撑Agent稳定高效运行的“万能工作间“——沙箱\n\n\n\n首先，什么是\"沙箱\"?\n\n沙箱是一种安全机制，能为运行中的程序提供一个隔离的、受控的执行环境\n\n就像一个\"安全围栏\"，程序在里面可以自由活动，但不会对宿主系统或其他程序造成实质影响\n\n实现这种隔离有几种不同的技术路径：\n\n轻量级虚拟机提供强隔离，适合运行不可信代码\n\n容器技术则启动更快，适合高密度部署\n\n用户模式内核在安全与性能间取得平衡\n\nWebAssembly以极快的启动速度和细粒度隔离，在客户端和边缘计算中表现出色\n\n这些技术路线各有侧重，实际应用中，通常会根据需求，灵活搭配这些技术\n\n\n\n那么,为什么Agent需要沙箱呢?\n\nAgent对运行环境有着近乎苛刻的要求，而安全隔离正是沙箱最核心、最基础的功能\n\nAgent的核心能力之一是执行代码或调用外部工具\n\n但这其中蕴含着危险的不可预测性，比如代码中没有被发现的错误，或者收到恶意指令\n\n如果直接在核心服务器上运行，处理敏感数据时出错，后果会很严重，甚至导致数据泄露或系统崩溃\n\n阿里云无影AgentBay,   在云端通过虚拟化技术与容器技术，构建沙箱环境\n\n在这里，即使Agent出现意外，也不会危及宿主系统和核心数据\n\n真正实现\"本地环境零侵入\"，用户无需担心自己的设备被干扰\n\n\n\n一个出色的Agent，往往是一个\"多面手\"\n\n双十一购物时，当你让Agent帮你比价，它需要在不同电商平台间跳转抓取信息，再执行比价脚本，甚至还要调用云手机环境，验证移动端的优惠券\n\n这就需要沙箱能提供一个多样化、高度仿真运行环境的“全能操 作台\"\n\n无影AgentBay提供覆盖了多种核心运行环境的智能沙箱\n\n让Agent在复杂的任务流程中，在不同的\"专业工 作室“之间无缝切换\n\n而一系列开箱即用的预装工具。让开发者可以直接”拎包入住\"\n\n不必从零开始构建复 杂的集成环境，大大提升Agent的开发效率\n\n\n\n当Agent面对海量的任务时，强大的资源调度能力至关重要\n\n比如双十一期间，对算力的需求是爆发式的\n\n电商平台依赖的线上沙箱平台需要具备高并发处理能力，以应对瞬间涌入的海量请求\n\n依托云计算强大的底层算力，不仅支持弹性伸缩，还拥有动态资源调整，和大规模并发能力，在业务高峰时，快速调动算力资源，在流量回落后，自动释放多余的资源，既保证了效率，又节约了成本\n\n更重要的是，许多Agent的任务需要长时间运行，甚至是7×24小时\n\n沙箱提供的稳定运行环境和持久化的存储能力，使得Agent 能够成为永不停歇的\"数字员工\"\n\n沙箱也让Agent的运行能像游戏一样“自动存档” ——不用担心断网或者系统更新，一恢复就能接着干，不用重头再来\n\n无影AgentBay采用的统一持久化存储架构，支持状态和内存级别的持久化，确保Agent任务切换时能直接无缝衔接，保障复杂长周期任务的稳定执行\n\n\n\n此外，前沿平台已经在思考如何让Agent“ 自我进化”了\n\n无影AgentBay的Self-Evolving引擎，就像一个“私 人教练”\n\n让Agent不再只是机械的执行命令，还能通过分析失败案例，自动优化工作方法\n\n无论是单个Agent的内部流程，还是多个Agent的协作网络，都能调整到更高效的工作流\n\n配合智能记忆管理，还能学会“过目不忘”和“选择性遗忘”,从容应对复杂的长周期任务\n\n让Agent真正实现了自我进化，越用越“聪明”\n\n\n\n从划定安全边界，到提供全能工具，再到赋予进化潜力\n\n沙箱已经从一个简单的保护罩，进化成了支撑 Agent生态的基石\n\nAgent的潜力被安全、完整地释放，成为我们探索数字世界时，最值得信赖的伙伴\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "“箱”当重要：Agent的“隐形守护者”"
         },
         {
           "title": "大模型不止能聊天，还能动手了?",
           "bvid": "BV1iDq9BBEvn",
-          "url": "[https://www.bilibili.com/video/BV1iDq9BBEvn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1iDq9BBEvn/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1iDq9BBEvn",
           "cover": "assets/covers/BV1iDq9BBEvn.jpg",
           "plays": 597000,
           "interactions": 6198,
-          "isMain": true
+          "isMain": true,
+          "script": "",
+          "scriptTitle": "大模型不止能聊天，还能动手了?"
         },
         {
           "title": "桌面机器人：你的下一个“电子宠物”！",
           "bvid": "BV1XFBKBcE3W",
-          "url": "[https://www.bilibili.com/video/BV1XFBKBcE3W/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1XFBKBcE3W/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1XFBKBcE3W",
           "cover": "assets/covers/BV1XFBKBcE3W.jpg",
           "plays": 187000,
           "interactions": 5562,
-          "isMain": true
+          "isMain": true,
+          "script": "",
+          "scriptTitle": "桌面机器人：你的下一个“电子宠物”！"
         },
         {
           "title": "“废片”拯救计划",
           "bvid": "BV1m8BDBEEBk",
-          "url": "[https://www.bilibili.com/video/BV1m8BDBEEBk/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1m8BDBEEBk/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1m8BDBEEBk",
           "cover": "assets/covers/BV1m8BDBEEBk.jpg",
           "plays": 547000,
           "interactions": 12995,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【AI修图】废片拯救计划\n\n平安夜、圣诞节、跨年夜\n\n2025年最后一周\n\n是时候让AI帮你把朋友圈照片提升一个level了！\n\n不但能提高照片清晰度、做些基础的修图\n\n还可以直接变身成专业的摄影师＋美术指导＋特效师\n\n\n\n嗨，我是景妍\n\n今天我们来看看AI如何拯救废片吧！\n\n\n\n照片很好看，但往往总感觉差点灵魂\n\nAI，就能修出电影海报风，氛围感、故事性  全都拉满\n\n拍照姿势太少，拍来拍去都一个味\n\n那就用AI，加点艺术家风格，秒变审美尖子生\n\n想做网络梗图的话\n\nAI也能和你一起来整活\n\n\n\n所以，AI是怎么一步步成为修图大师的呢？\n\n在回答这个之前，我们先来测试一下AI的修图水平\n\n先来试试最常用、也最实用的一招：去除路人\n\n先上传一张背景全是路人的照片\n\n然后直接告诉AI：“帮我把路人去掉”\n\n几秒钟后，可以看到AI不仅把路人擦掉了\n\n还能理解照片中的背景，把空出来的地方无痕补上\n\n就像路人从没来过一样\n\n\n\n我们再来试试AI打光\n\n这是正常的拍摄\n\n现在，关掉我面前的这个光\n\n由于我处于逆光，所以拍出来的照片脸部基本就是一片黑\n\n但是，AI帮我修图后的效果是这样的\n\n我告诉它：“帮我修复照片中人脸逆光的问题”\n\n它就会只给我的脸部重新打光，背景一丝不动\n\n而且整张图的光效还很统一\n\n\n\nok，我们现在再来给AI上点强度\n\n让不在现场的小伙伴和我合个影\n\n这，是她的照片\n\n这，是我刚刚拍的照片\n\n现在告诉AI：“把这两张照片的人合成一张合影”\n\n你看，跨照片移植后的我们\n\n动作还是自然的，表情也很生动\n\n看起来毫无PS痕迹\n\n\n\n我们刚刚使用的这些功能背后\n\n其实藏着一个专门修图的AI小帮手\n\nQwen-Image-Edit\n\n这些照片之所以能做到毫无p图痕迹\n\n靠的就是它既能精确定位、又能精准动手的两大能力\n\n那么AI是怎么进行精准定位的呢？\n\n\n\n这就要说到图像语义分割技术\n\n它能让AI“看懂”一张照片\n\n它会先把整张照片切成无数微小的像素区域\n\n并给每个像素贴上标签\n\n让模型知道每一块区域是什么\n\n所以当你让它去掉路人、或者把红裙子换成蓝色时\n\n模型都能先精准锁定，并切出对应的语义区域\n\n之后只改变这一区域，不动其他任何部分\n\n\n\n为了让后续修图操作更精准\n\nAI还会把你提供的照片“压缩”成一个高维特征向量\n\n也就是它的数字身份证\n\n这张身份证里装着两大类关键信息：身份信息和环境信息\n\n像前面那种把没来的人P进合照的多图编辑，就是靠它来完成的\n\nAI会不断对比两张照片的“身份证”\n\n自动校准人物特征、肤色、光影、亮度这些关键信息\n\n让移植过来的人物自然贴合现场环境\n\n而不是简单贴个脸上去\n\n\n\n今年AI修图质感全面提升\n\n很大程度上也得益于核心控制架构的升级\n\n比如像目前已经很成熟的原生ControlNet架构\n\n它拥有独特的双分支结构\n\n主分支（锁定分支） 负责保证画面生成质量\n\n控制分支（可训练分支） 专门用来理解你的意图\n\n当你给它一个姿势示意图时\n\n控制分支会将参考姿势转化为指令\n\n逐步引导主分支在保持人物身份不变的前提下\n\n重构姿态、造型、背景\n\n像更加专业的图片编辑模型Z-Image-Edit\n\n它的控制架构能让模型在同一条信息流里 同时感知所有条件\n\n这就让它在理解复杂指令、保持人物一致性方面特别强\n\n能同时修改表情、姿态、背景、文字\n\n即使大幅度修改动作 人脸也不会崩\n\n\n\n不过，AI的本事可不局限于修修人物、调调背景\n\n我们一起用千问来体验一些AI修图的新姿势\n\n我觉得它最方便的一个功能就是动嘴修图\n\n利用大语言模型 能让AI从你的语音中精准识别意图\n\n而MMDiT架构 则能让需求文字和图像像素坐下来直接“对话”，确保修图的准确\n\n只要动动嘴对它说出需求，AI就能立即帮你修图\n\n\n\n还有朋友圈很火的live photo也能靠AI实现\n\n先把静态照片导入千问\n\n告诉它生成5秒左右的视频\n\n这一步更进阶的玩法\n\n是还能直接生成和动漫角色的动态合影\n\n之后再用修图软件将视频导成live photo格式\n\n就能直接在朋友圈里炫起来了\n\n\n\n你要不要试试做个表情包？\n\n千问的文字编辑功能也很好用\n\n它支持在图片里直接添加、删除、修改中英文文字\n\n随便找一张图或生成一张图，再加句内心OS\n\n玩梗、吐槽，随手就来\n\n\n\n看完今天的视频\n\n你是不是也已经忍不住\n\n想用AI来修一修你手机里的上千张图了\n\n你会用AI修出哪些神图呢？\n\n欢迎在视频下方评论区和我们分享\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "“废片”拯救计划"
         },
         {
           "title": "AI外呼：call出新高度",
           "bvid": "BV1ZjkVBTEtA",
-          "url": "[https://www.bilibili.com/video/BV1ZjkVBTEtA/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6](https://www.bilibili.com/video/BV1ZjkVBTEtA/?spm_id_from=333.1387.upload.video_card.click&vd_source=aeffc9eab82f67a6fb739d569f2ec6f6)",
+          "url": "https://www.bilibili.com/video/BV1ZjkVBTEtA",
           "cover": "assets/covers/BV1ZjkVBTEtA.jpg",
           "plays": 625000,
           "interactions": 7166,
-          "isMain": true
+          "isMain": true,
+          "script": "# 【智能外呼】AI外呼：call出新高度\n\n提醒、回访、通知……\n\n每天，我们都或多或少会接到这样的电话\n\n但现在，电话的那头，可能不再只是真 人客服了\n\n有调研报告显示，2024年全球AI外呼机器人市场销售额已达到14.76亿美元\n\n而在中国，AI外呼系统的市场 的规模，正以每年20%的速度增长\n\n从一次简单的医院康复回访，到一场覆盖几十万人的大型调研，背后都可能有Al的身影\n\n\n\n欢迎来到超级Al研究所，以AI的视角，解码现象背后的先进技术\n\n本期一起来看AI智能外呼是如何拓展服务边界的。\n\n\n\nAl外呼，并不是简单地“群发”一段录制好的语音，而是需要Al与人类完成一场有来有回的“对话”\n\n那么怎么快速“组装”出一个能干的AI呢?\n\n像阿里云通义晓蜜这样的平台，正在帮助降低这件事的门槛\n\n对于没有技术背景的业务人员，可以通过“提示词工程”\n\n用自然语言描述Al的“人设”和“任务”\n\n就像与一 位熟悉的同事沟通一样，大模型能理解这些大白话，快速搭建一个基础对话机器人框架\n\n面对复杂一些的场景，比如要根据用户回答的“满意”或“不满意”走向完全不同的提问分支，那就可以用上  “可视化对话设计”工具\n\n“轻量画布”和“工作流构建”模式可以像画思维导图一样，把不同的对话分支拖拽出 来，直观地构建一个完整的对话流程，极大降低了复杂场景的配置成本\n\n如果是需要深度定制的需求，通义晓蜜也提供了像乐高积木一样的原子化能力和大量API接口，让AI能嵌入到任何专业系统中去\n\n\n\n但是，真实世界的对话充满了随机性，用户不会照本宣科\n\n想让Al真正“听明白”,就需要一系列精密技术的配合\n\n当一通来自医院的康复回访电话被接起时\n\n首先启动的是Al的“耳朵”：自动语音识别技术 (ASR)  要从嘈杂的背景音中精准捕捉人声，并克服用户口音和部分方言的差异，将语音准确地转为文字\n\n接着，自然语言处理技术 (NLP)  与大语言模型扮演的“大脑“登场，让Al不仅能理解字面意思，更能理解“弦外之音”\n\n比如用户先说“不疼了”,接着又说“不过一碰还是有点难受”。Al 能联系上下文，像真人一样理解这种转折，不会死板地认为这是前后矛盾\n\n同时，知识图谱确保了Al在专业领域对话的准确性，\n\n当用户提到“有点发炎”时，Al能立刻关联到知识库中关 于“术后感染指征”、“常用消炎药”等专业内容，并在后续对话中使用专业的表述\n\n\n\n理解了，还要能回应\n\n语音合成技术 (TTS)   就是Al的“嘴巴”,现在的技术已经能合成出带有自然停顿、接近真人音色的语音\n\n配合上情感分析技术，AI还能感知用户情绪，动态调整话术，让沟通更有温度\n\n这一系列技术的无缝衔接，让Al外呼从简单的“单向通知”,进化为有感知的“双向对话”\n\n当这样的对话每天发生成千上万次时， AI所创造的价值就远远超越了完成单次通话本身\n\n设想一下，当一个管理着上千个小区、服务百万家庭的物业集团，如果靠人工打电话进行满意度普查，那得是多么巨大的工作量?\n\n现在，像融山科技这样的服务商，利用Al外呼，曾经需要两个人工、耗时一周才能完成的5000户调研，现在半小时就能搞定，而且有效触达率能从过去的30%-40%,大幅提升到70%以上\n\n这背后靠的就是AI 外呼系统强大的并发能力和智能调度\n\n它能一口气同时打成百上千通电话，在极短的时间内触达大量用户。而且它还特别“懂事”—-会自动避开大家休息的时间，比如深夜或者午休，把电话安排在最合适的时间段，让拨打效率更高、体验也更好\n\n\n\n但一次成功的AI 外呼，可不能以“挂电话”就画上句号\n\n关键还有一步：数据的自动整理。像“通义晓蜜对话分析”这样的工具，就能自动听完整通录音，根据你的业务需求，把重点信息抓出来—-比如客户意向、反馈内容、问题类型等等，再自动生成结构清晰的报告。这样一来，每一通电话，其实都变成了一次精准的数据整理\n\n更厉害的是，AI 还会在过程中不断“学习”和“进化”。不管是顺利成交的通话，还是被挂断、没接通的，这些都会变成训练它的“养料”\n\n通过分析海量的真实对话，AI 能不断调整话术、优化策略，形成一个“实践一 学习一再优化”的正向循环。用得越多，它就越懂你的业务，越聊越专业!\n\n\n\nAI 外呼，正慢慢变成企业感知用户、服务用户的“神经末梢”\n\n它把人类积累的专业经验，变成可复制、可放大的数字能力；又从成千上万通电话里，捕捉那些容易被忽略的小细节——比如语气、犹豫、关键词，再把这些碎片拼成清晰的用户画像和业务洞察。\n\n这样一来，大规模的服务不再是冷冰冰的流程，而是能带着“个性化关注”去触达每个人。\n\n效率提升了，但不是靠牺牲体验，而是建立在对用户更深一层的理解之上。\n\n\n\n快来关注超级AI研究所，让我们一起用AI视角看懂世界",
+          "scriptTitle": "AI外呼：call出新高度"
         },
         {
           "title": "听说龙虾已经开始自己投简历找工作了",
           "bvid": "BV1pSXsB6Eaj",
-          "url": "[https://www.bilibili.com/video/BV1pSXsB6Eaj/?spm_id_from=333.1387.upload.video_card.click](https://www.bilibili.com/video/BV1pSXsB6Eaj/?spm_id_from=333.1387.upload.video_card.click)",
+          "url": "https://www.bilibili.com/video/BV1pSXsB6Eaj",
           "cover": "assets/covers/BV1pSXsB6Eaj.jpg",
           "plays": 156000,
           "interactions": 3579,
-          "isMain": true
+          "isMain": true,
+          "script": "",
+          "scriptTitle": "听说龙虾已经开始自己投简历找工作了"
         }
       ],
       "metrics": null,
@@ -633,9 +683,9 @@ window.SITE_DATA = {
       "id": "winter",
       "name": "米兰冬奥 AIGC 全球大赛",
       "accent": "#059669",
-      "tagline": "「意」展你风采 · 全球首个官方奥运粉丝 AIGC 互动",
-      "description": "奥林匹克官方云服务合作伙伴阿里云，携手国际奥委会与米兰-科尔蒂纳 2026 冬奥组委会，共同发起全球首个官方奥运粉丝 AIGC 互动项目。全球创作者基于阿里云通义大模型，围绕花样滑冰、短道速滑、高山滑雪、单板滑雪四项运动进行 AIGC 创作；TOP100 作品汇聚为奥运史上首个 AIGC 数字艺术作品《YOUR EPIC VIBE》，纳入奥林匹克博物馆馆藏，并在瑞士洛桑、意大利米兰、中国杭州三地联展。",
-      "role": "项目内容负责人 · AIGC 内容策划与制作",
+      "tagline": "「意」展你风采 · 全球首个官方奥运粉丝 AIGC 大赛",
+      "description": "YOUR EPIC VIBE —— Powered by Alibaba Cloud AI Technology Alibaba Cloud AIGC Championship @ Milano Cortina 2026 \"意\"展你风采 米兰冬奥AIGC 大赛——由阿里云AI技术支持 呼应本届米兰冬奥会官方主张为\"IT'S YOUR VIBE\"（意展你风采）与国际奥委会革新奥运粉丝参与运动方式的诉求，奥林匹克官方云服务合作伙伴阿里云，携手国际奥委会与米兰-科尔蒂纳2026冬奥组委会，共同发起全球首个官方奥运粉丝AIGC互动项目，由全球奥运粉丝基于阿里云通义大模型进行花样滑冰、短道速滑、高山滑雪、单板滑雪四项运动的AIGC创作，并由组委会将其中100幅优秀作品汇聚为奥运史上首个AIGC数字艺术作品《YOUR EPIC VIBE》纳入奥林匹克博物馆馆藏，并在2月6日起进行全球多地进行联展（瑞士洛桑、意大利米兰、中国杭州）。",
+      "role": "大赛运营负责人",
       "results": [
         {
           "label": "参与国家/地区",
@@ -662,14 +712,6 @@ window.SITE_DATA = {
         {
           "label": "大赛官网（已结束）",
           "url": "https://summit.aliyun.com/aigcchampionship"
-        },
-        {
-          "label": "国际互动站",
-          "url": "https://alibabacloud.aigcchampionship.com"
-        },
-        {
-          "label": "国内互动站",
-          "url": "https://aliyun.aigcchampionship.com"
         }
       ],
       "tags": [
@@ -1149,7 +1191,7 @@ window.SITE_DATA = {
       "id": "winai",
       "name": "《赢在 AI+》第一季",
       "accent": "#dc2626",
-      "tagline": "央视 × 杭州政府 · 国内 AI 领域大型纪实创投节目",
+      "tagline": "国内 AI 领域大型纪实创投节目",
       "description": "由中央广播电视总台、杭州市人民政府联合主办的国内 AI 领域大型纪实创投节目，阿里云作为节目战略合作伙伴（官方身份：云计算 AI 独家合作伙伴）。节目紧跟国家战略，聚焦 AI 时代，通过创意阐述、行业调研、融资议价等环节，为创新创业者提供施展才华的舞台，推动人工智能与各行各业深度融合。全 10 期覆盖机器革命、智能终端、AI 设计、未来医疗、智能芯算等主题。",
       "role": "传播策划 · 整合营销落地",
       "results": [
@@ -1162,28 +1204,17 @@ window.SITE_DATA = {
           "label": "节目期数",
           "value": "10",
           "suffix": "期"
-        },
-        {
-          "label": "合作身份",
-          "value": "云计算 AI",
-          "suffix": "独家合作伙伴"
-        },
-        {
-          "label": "主办",
-          "value": "央视×杭州",
-          "suffix": "政府"
         }
       ],
       "links": [
         {
-          "label": "节目品牌主张",
+          "label": "节目内容",
           "url": "https://www.bilibili.com/search?keyword=赢在AI%2B"
         }
       ],
       "tags": [
         "AI+",
         "纪实创投",
-        "整合营销",
         "品牌传播",
         "央视"
       ],

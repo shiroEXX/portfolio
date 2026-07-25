@@ -196,6 +196,110 @@
   }
 
   /* ---------- 项目详情弹窗 ---------- */
+  // —— 全球地图（choropleth）懒加载与渲染 ——
+  let _echartsPromise = null;
+  function ensureECharts() {
+    if (window.echarts) return Promise.resolve(window.echarts);
+    if (_echartsPromise) return _echartsPromise;
+    _echartsPromise = new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = "https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js";
+      s.async = true;
+      s.onload = () => (window.echarts ? resolve(window.echarts) : reject(new Error("echarts load failed")));
+      s.onerror = () => reject(new Error("echarts cdn error"));
+      document.head.appendChild(s);
+    });
+    return _echartsPromise;
+  }
+
+  let _worldGeoPromise = null;
+  function loadWorldGeo() {
+    if (window.__worldGeo) return Promise.resolve(window.__worldGeo);
+    if (_worldGeoPromise) return _worldGeoPromise;
+    _worldGeoPromise = ensureECharts()
+      .then(() =>
+        fetch("assets/world.geo.json")
+          .then((r) => r.json())
+          .then((geo) => {
+            // Natural Earth 对法国等少数国家 ISO_A2 记为 -99，做修正以保证染色
+            (geo.features || []).forEach((f) => {
+              const p = f.properties || {};
+              if (p.NAME === "France" && p.ISO_A2 === "-99") p.ISO_A2 = "FR";
+            });
+            try { window.echarts.registerMap("world", geo); } catch (e) {}
+            window.__worldGeo = geo;
+            return geo;
+          })
+      );
+    return _worldGeoPromise;
+  }
+
+  function chipsHtml(p) {
+    const arr = Object.entries(p.mapData.countries)
+      .map(([k, v]) => ({ code: k, ...v }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 24);
+    return arr
+      .map(
+        (c) =>
+          `<span class="inline-flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">${esc(
+            c.name
+          )}<b class="font-semibold">${c.count}</b></span>`
+      )
+      .join("");
+  }
+
+  function renderWinterMap(p) {
+    const el = document.getElementById("winter-map");
+    if (!el) return;
+    loadWorldGeo()
+      .then(() => {
+        const chart = window.echarts.init(el);
+        window.__winterChart = chart;
+        const data = Object.entries(p.mapData.countries).map(([code, c]) => ({ name: code, value: c.count }));
+        chart.setOption({
+          tooltip: {
+            trigger: "item",
+            formatter: (pp) => (pp.value != null ? pp.name + "：" + pp.value + " 件" : pp.name),
+          },
+          visualMap: {
+            min: 1,
+            max: p.mapData.maxCount || 13,
+            left: 12,
+            bottom: 12,
+            text: ["多", "少"],
+            calculable: true,
+            inRange: { color: ["#ecfdf5", "#a7f3d0", "#34d399", "#059669", "#047857"] },
+            textStyle: { color: "#64748b" },
+          },
+          series: [
+            {
+              type: "map",
+              map: "world",
+              nameProperty: "ISO_A2",
+              roam: false,
+              label: { show: false },
+              itemStyle: { areaColor: "#f1f5f9", borderColor: "#e2e8f0", borderWidth: 0.5 },
+              emphasis: { itemStyle: { areaColor: "#fde68a" }, label: { show: false } },
+              data: data,
+            },
+          ],
+        });
+        const onResize = () => chart.resize();
+        window.__winterResize = onResize;
+        window.addEventListener("resize", onResize);
+      })
+      .catch(() => {
+        const m = document.getElementById("winter-map");
+        if (m) m.style.display = "none";
+        const fb = document.getElementById("winter-map-fallback");
+        if (fb) {
+          fb.classList.remove("hidden");
+          fb.innerHTML = chipsHtml(p);
+        }
+      });
+  }
+
   function openProject(p) {
     const root = $("#modal-root");
     const links = (p.links || [])
@@ -253,25 +357,17 @@
 
     let reach = "";
     if (p.mapData && p.mapData.countries) {
-      const arr = Object.entries(p.mapData.countries)
-        .map(([k, v]) => ({ code: k, ...v }))
-        .sort((a, b) => b.count - a.count)
-        .slice(0, 24);
-      const chips = arr
-        .map(
-          (c) =>
-            `<span class="inline-flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">${esc(
-              c.name
-            )}<b class="font-semibold">${c.count}</b></span>`
-        )
-        .join("");
       reach = `
         <div class="mt-6 rounded-2xl border border-zinc-100 bg-emerald-50/40 p-5">
           <div class="flex items-center gap-2 text-emerald-700 font-semibold"><span>${icon(
             "globe",
             "w-5 h-5"
-          )}</span> 全球创作者参与 · ${esc(p.mapData.totalCountries)} 个国家/地区有作品入选</div>
-          <div class="mt-3 flex flex-wrap gap-2">${chips}</div>
+          )}</span> 全球创作者参与</div>
+          <div id="winter-map" class="mt-3 w-full" style="height:384px"></div>
+          <p class="mt-2 text-xs text-zinc-400">颜色越深代表参赛作品越多；共 ${esc(
+            p.mapData.totalCountries
+          )} 个国家/地区有作品入选。</p>
+          <div id="winter-map-fallback" class="mt-3 flex flex-wrap gap-2 hidden"></div>
         </div>`;
     }
 
@@ -299,7 +395,16 @@
           </div>
         </div>
       </div>`;
+    if (p.id === "winter" && p.mapData && p.mapData.countries) renderWinterMap(p);
     const close = () => {
+      if (window.__winterChart) {
+        try { window.__winterChart.dispose(); } catch (e) {}
+        window.__winterChart = null;
+      }
+      if (window.__winterResize) {
+        window.removeEventListener("resize", window.__winterResize);
+        window.__winterResize = null;
+      }
       root.innerHTML = "";
       document.body.style.overflow = "";
     };
