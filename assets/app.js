@@ -146,7 +146,7 @@
       )
       .join("");
     return `
-      <article class="reveal group project-card" data-id="${esc(p.id)}" data-tags="${esc(
+      <article class="reveal group project-card project-card-lift" data-id="${esc(p.id)}" data-tags="${esc(
       (p.tags || []).join(",")
     )}" style="--accent:${esc(p.accent || "#4f46e5")}">
         <button class="block w-full text-left focus:outline-none" data-open="${esc(p.id)}">
@@ -162,6 +162,7 @@
             <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-white/90 text-zinc-700 backdrop-blur">${esc(
               p.tagline
             )}</span>
+            <div class="project-card-overlay"></div>
           </div>
           <h3 class="font-display text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors">${esc(
             p.name
@@ -169,7 +170,7 @@
           <p class="mt-2 text-sm text-zinc-500 line-clamp-2">${esc(p.description)}</p>
           <div class="mt-4 flex flex-wrap gap-2">${tags}</div>
           <div class="mt-5 grid grid-cols-3 gap-3 border-t border-zinc-100 pt-4">${results}</div>
-          <div class="mt-4 inline-flex items-center gap-1 text-sm font-medium text-indigo-600">查看项目详情 ${icon(
+          <div class="project-card-cta mt-4 inline-flex items-center gap-1 text-sm font-medium text-indigo-600">查看项目详情 ${icon(
             "arrow",
             "w-4 h-4"
           )}</div>
@@ -323,11 +324,11 @@
     }
 
     root.innerHTML = `
-      <div class="fixed inset-0 z-[60] flex items-start justify-center p-4 sm:p-8 overflow-y-auto" id="modal-overlay">
-        <div class="fixed inset-0 bg-zinc-900/50 backdrop-blur-sm" data-close></div>
-        <div class="relative z-10 w-full max-w-3xl bg-white rounded-3xl shadow-2xl my-8 overflow-hidden" role="dialog" aria-modal="true">
+      <div class="fixed inset-0 z-[60] flex justify-end" id="modal-overlay">
+        <div class="absolute inset-0 bg-zinc-900/50 backdrop-blur-sm" data-close></div>
+        <div class="modal-panel relative z-10 h-full w-full max-w-3xl bg-white shadow-2xl overflow-y-auto" role="dialog" aria-modal="true">
           <div class="h-1.5 w-full" style="background:${esc(p.accent || "#4f46e5")}"></div>
-          <button class="absolute top-4 right-4 z-20 inline-flex h-9 w-9 items-center justify-center rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200" data-close aria-label="关闭">${icon(
+          <button class="modal-close-btn absolute top-4 right-4 z-20 inline-flex h-9 w-9 items-center justify-center rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200" data-close aria-label="关闭">${icon(
             "close",
             "w-5 h-5"
           )}</button>
@@ -346,6 +347,8 @@
           </div>
         </div>
       </div>`;
+    const overlay = root.querySelector("#modal-overlay");
+    requestAnimationFrame(() => { if (overlay) overlay.classList.add("open"); });
     if (p.id === "winter" && p.mapData && p.mapData.countries) renderWinterMap(p);
     const close = () => {
       if (window.__winterChart) {
@@ -356,8 +359,11 @@
         window.removeEventListener("resize", window.__winterResize);
         window.__winterResize = null;
       }
-      root.innerHTML = "";
-      document.body.style.overflow = "";
+      if (overlay) overlay.classList.remove("open");
+      setTimeout(() => {
+        root.innerHTML = "";
+        document.body.style.overflow = "";
+      }, 520);
     };
     $$("#modal-overlay [data-close]").forEach((b) => b.addEventListener("click", close));
     document.addEventListener("keydown", function esc(e) {
@@ -386,9 +392,10 @@
     const projects = D.projects || [];
     root.innerHTML = `
       <header class="relative pt-28 md:pt-36 pb-12 md:pb-16 overflow-hidden">
+        <div class="hero-bg"></div>
         <div class="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-indigo-100 blur-3xl opacity-60"></div>
         <div class="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-zinc-200 blur-3xl opacity-50"></div>
-        <div class="relative mx-auto max-w-6xl px-5">
+        <div class="hero-enter relative mx-auto max-w-6xl px-5">
           <div class="reveal inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-indigo-600 mb-5">
             <span class="h-px w-8 bg-amber-500"></span>个人作品集 · Portfolio
           </div>
@@ -405,14 +412,32 @@
             )}</a>
           </div>
         </div>
+        <a href="#projects" id="scroll-indicator" class="scroll-indicator" aria-label="向下滚动查看项目">
+          <span>向下滚动</span>
+          <svg class="scroll-arrow" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <polyline points="19 12 12 19 5 12"></polyline>
+          </svg>
+        </a>
       </header>
 
-      <section class="py-14 md:py-20">
+      <section class="band py-14 md:py-20" id="projects">
         <div class="mx-auto max-w-6xl px-5">
           ${sectionHead("", "部分过往项目", "")}
           <div class="grid md:grid-cols-3 gap-6">${projects.map(projectCard).join("")}</div>
         </div>
       </section>`;
+    const indicator = root.querySelector("#scroll-indicator");
+    if (indicator) {
+      indicator.addEventListener("click", (e) => {
+        e.preventDefault();
+        const target = root.querySelector("#projects");
+        if (target) target.scrollIntoView({ behavior: "smooth" });
+      });
+      const onScroll = () => indicator.classList.toggle("hidden", window.scrollY > 100);
+      window.addEventListener("scroll", onScroll, { passive: true });
+      onScroll();
+    }
     bindProjectOpen();
   }
 
@@ -560,7 +585,7 @@
       </section>`;
   }
 
-  /* ---------- 入场动画（尊重 reduced-motion） ---------- */
+  /* ---------- 入场动画（尊重 reduced-motion，错落 stagger） ---------- */
   function initReveal() {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const items = $$(".reveal");
@@ -568,6 +593,18 @@
       items.forEach((i) => i.classList.add("in"));
       return;
     }
+    // 按父容器分组，组内按文档顺序注入递增 transition-delay，形成错落揭示
+    const groups = new Map();
+    items.forEach((el) => {
+      const parent = el.parentElement || document.body;
+      if (!groups.has(parent)) groups.set(parent, []);
+      groups.get(parent).push(el);
+    });
+    groups.forEach((list) => {
+      list.forEach((el, i) => {
+        el.style.transitionDelay = Math.min(i * 0.08, 0.4) + "s";
+      });
+    });
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -577,7 +614,7 @@
           }
         });
       },
-      { threshold: 0.12 }
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
     );
     items.forEach((i) => io.observe(i));
   }

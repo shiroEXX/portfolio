@@ -1,0 +1,137 @@
+/* assets/animations.css — 作品集 v1.0 动画 / 交互 / 背景优化
+ * 设计依据：参考站 index.v2.html（纯 CSS + IntersectionObserver，无外部库）
+ * 动效规范：ui-ux-pro-max（animation/ux 领域、reduced-motion、空间连续性）
+ * 本文件在 5 个 HTML 的 <style> 之后链接，故其 .reveal 等规则优先级高于内联，无需改动内联块。
+ */
+
+/* ============ 分层浅色背景变量 ============ */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fb;
+  --bg-tertiary: #f1f3f7;
+}
+body { background-color: var(--bg-primary); }
+
+/* ============ 滚动揭示（升级 + 错落 stagger） ============ */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+
+/* ============ 英雄区 ============ */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: linear-gradient(135deg,
+    rgba(79, 70, 229, 0.12) 0%,
+    rgba(245, 158, 11, 0.10) 50%,
+    rgba(79, 70, 229, 0.07) 100%);
+  background-size: 200% 200%;
+  animation: heroGradient 15s ease infinite;
+}
+@keyframes heroGradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.hero-enter {
+  animation: fadeInUp 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.scroll-indicator {
+  position: absolute;
+  bottom: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #8a8f9c;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  animation: bounce 2s ease-in-out infinite;
+  cursor: pointer;
+  transition: opacity 0.4s ease;
+}
+.scroll-indicator.hidden { opacity: 0; pointer-events: none; }
+@keyframes bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(8px); }
+}
+
+/* ============ 项目卡片 hover（整卡浮起 + 图片遮罩 + 箭头位移） ============ */
+.project-card-lift {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+.project-card-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(15, 16, 21, 0.12);
+}
+.project-card-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background: rgba(15, 16, 21, 0.22);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.group:hover .project-card-overlay { opacity: 1; }
+.project-card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.project-card-cta svg { width: 16px; height: 16px; transition: transform 0.3s ease; }
+.group:hover .project-card-cta svg { transform: translateX(4px); }
+
+/* ============ 详情弹窗：从右侧整屏滑入 ============ */
+#modal-overlay {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+#modal-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-panel {
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#modal-overlay.open .modal-panel { transform: translateX(0); }
+.modal-close-btn {
+  transition: transform 0.25s ease, background-color 0.2s ease;
+}
+.modal-close-btn:hover { transform: rotate(90deg); }
+
+/* ============ 分层背景工具类 ============ */
+.band { background-color: var(--bg-secondary); }
+
+/* ============ 焦点可见 ============ */
+:focus-visible { outline: 2px solid #4f46e5; outline-offset: 2px; }
+
+/* ============ 减弱动画偏好 ============ */
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .hero-bg, .scroll-indicator, .hero-enter { animation: none !important; }
+  .hero-enter { opacity: 1 !important; transform: none !important; }
+  #modal-overlay, .modal-panel { transition: none !important; }
+  .modal-panel { transform: none !important; }
+  .project-card-overlay { transition: none !important; }
+  .project-card-cta { transition: none !important; }
+}
