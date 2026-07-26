@@ -348,7 +348,7 @@
         </div>
       </div>`;
     const overlay = root.querySelector("#modal-overlay");
-    requestAnimationFrame(() => { if (overlay) overlay.classList.add("open"); });
+    requestAnimationFrame(() => requestAnimationFrame(() => { if (overlay) overlay.classList.add("open"); }));
     if (p.id === "winter" && p.mapData && p.mapData.countries) renderWinterMap(p);
     const close = () => {
       if (window.__winterChart) {
